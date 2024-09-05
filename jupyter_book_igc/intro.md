@@ -2,7 +2,7 @@
 
 Mi nombre es Inmaculada Gijón. Soy Ingeniera Informática y desde 2018 también profesora de Formación Profesional, enseñando ese maravilloso oficio.
 
-Estoy interesada fundamentalmente en el desarrollo de software, realidad virtual e inteligencia artificial.
+Estoy interesada fundamentalmente en el Desarrollo de Software, Realidad Virtual e Inteligencia Artificial.
 
 Los módulos en los normalmente trabajo son **Desarrollo Web en Entorno Cliente** en el ciclo formativo de grado superior de **Desarrollo de Aplicaciones Web** y el módulo de **Sistemas de Gestión Empresarial** en el ciclo formativo de grado superior de **Desarrollo de Aplicaciones Multiplataforma**.
 
@@ -10,7 +10,7 @@ También trabajo en el **Curso de Especialización de Desarrollo de Videojuegos 
 
 El contenido del material que puedes encontrar tanto en este sitio web como en los distintos links que aparecen han sido desarrollados con objetivos docentes. Si tienes dudas, [contacta](mailto:iigc28@educastillalamancha.es).
 
-[[!Github](img/rrss/github.webp)](https://github.com/igijon) [[!Youtube](img/rrss/youtube.webp)](https://www.youtube.com/@inmagijoncardos) [[!Linkedin](img/rrss/linkedin.webp)](https://www.linkedin.com/in/inmaculada-gij%C3%B3n-cardos-38651656) 
+[](https://github.com/igijon) [](https://www.youtube.com/@inmagijoncardos) [](https://www.linkedin.com/in/inmaculada-gij%C3%B3n-cardos-38651656) 
 
 Podrás encontrar información sobre...
 

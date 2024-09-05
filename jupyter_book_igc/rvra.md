@@ -17,7 +17,7 @@ kernelspec:
 
 Atalaya The Curse, es un videojuego que hemos desarrollado como proyecto en el **Curso de Especialización de Desarrollo de Videojuegos y RV** impartido en el [IES MAESTRE DE CALATRAVA](https://iesmaestredecalatrava.es/).
 
-Ha sido desarrollado utilizando principalmente las siguientes tecnologías para Oculus Quest 2: Unity, MRTK, C#, Blender y Git para control de versiones.
+Ha sido desarrollado utilizando principalmente las siguientes tecnologías para **Oculus Quest 2**: **Unity, MRTK, C#, Blender** y **Git** para control de versiones.
 
 Aquí tenéis el trailer para que os hagáis una idea:
 
