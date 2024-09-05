@@ -10,7 +10,7 @@ También trabajo en el **Curso de Especialización de Desarrollo de Videojuegos 
 
 El contenido del material que puedes encontrar tanto en este sitio web como en los distintos links que aparecen han sido desarrollados con objetivos docentes. Si tienes dudas, [contacta](mailto:iigc28@educastillalamancha.es).
 
-[![Github](img/rrss/github.png)](https://github.com/igijon) [![Youtube](img/rrss/youtube.png)](https://www.youtube.com/@inmagijoncardos) [![Linkedin](img/rrss/linkedin.png)](https://www.linkedin.com/in/inmaculada-gij%C3%B3n-cardos-38651656) 
+[![Github](img/rrss/github.png =32x32)](https://github.com/igijon) [![Youtube](img/rrss/youtube.png =32x32)](https://www.youtube.com/@inmagijoncardos) [![Linkedin](img/rrss/linkedin.png =32x32)](https://www.linkedin.com/in/inmaculada-gij%C3%B3n-cardos-38651656) 
 
 Podrás encontrar información sobre...
 
