@@ -16,6 +16,8 @@ El contenido del material que puedes encontrar tanto en este sitio web como en l
 <a href="https://www.linkedin.com/in/inmaculada-gij%C3%B3n-cardos-38651656"><img src="../../img/rrss/linkedin.png" width="32" height="32"></a>
 <a href="https://www.youtube.com/@inmagijoncardos"><img src="../../img/rrss/youtube.png" width="32" height="32"></a>
 <br>
+<br>
+<br>
 Podrás encontrar información sobre...
 
 ```{tableofcontents}
