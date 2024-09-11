@@ -38,8 +38,8 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          cp -r jupyter_book_igc/img jupyter_book_igc/_build/html/img
           jupyter-book build jupyter_book_igc
+          cp -r jupyter_book_igc/img jupyter_book_igc/_build/html/img
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
