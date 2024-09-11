@@ -8,7 +8,7 @@ Los módulos en los normalmente trabajo son **Desarrollo Web en Entorno Cliente*
 
 También trabajo en el **Curso de Especialización de Desarrollo de Videojuegos y RV** impartiendo el módulo de **Ralidad Virtual y Realidad Aumentada** y en el **Curso de Especialización de Big Data e IA** impartiendo el módulo de **Programación en IA**.
 
-Actualmente me encuentro impartiendo clase en el Centro Integrado de FP [**CIFP Virgen De Gracia**](https://cifpvirgendegracia.com/).
+Actualmente me encuentro impartiendo clase en el Centro Integrado de FP [CIFP Virgen De Gracia](https://cifpvirgendegracia.com/).
 
 El contenido del material que puedes encontrar tanto en este sitio web como en los distintos links que aparecen han sido desarrollados con objetivos docentes. Si tienes dudas, [contacta](mailto:iigc28@educastillalamancha.es).
 
