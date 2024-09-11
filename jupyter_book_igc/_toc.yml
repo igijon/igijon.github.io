@@ -8,5 +8,6 @@ chapters:
 - file: dwec
   sections:
     - file: dwec/arquitectura
+- file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks

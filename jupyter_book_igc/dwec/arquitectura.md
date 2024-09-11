@@ -55,6 +55,52 @@ Antes de hablar de los distintos tipos de arquitectura que nos podemos encontrar
 4. Tu aplicacó´n responde con el contenido correcto (normalmente una página web).
 5. El navegador muestra la página web en pantalla.
 
+## Componentes de la Aplicación Web
+
+### Componentes del lado del servidor
+
+Son los componentes que residen en el backend de tu aplicación web. No están expuestos directamente a los usuarios y contienen la lógica de negocio y los recursos más importantes de tu aplicación web.
+
+#### DNS y Enrutamiento
+
+El DNS controla cómo se expone tu aplicación a la web. Los registros DNS son utilizados por los clientes HTTP, que también pueden ser un navegador, para encontrar y enviar solicitudes a los componentes de tu aplicación. El DNS también es utilizado por tus clientes frontend para resolver la ubicación de tus servicores web y endpoints de la API para enviar solicitudes y procesar las operaciones de los usuarios.
+
+El equilibrio de carga es otro componente popular de la arquitectura de las aplicaciones web. Un equilibrador de carga se utiliza para distribuir las peticiones HTTP entre varios servidores web idénticos. La intención de tener varios servidores web es mantener la redundancia que ayuda a aumentar la tolerancia a fallos, así como distribuir el tráfico para mantener un alto rendimiento.
+
+Los endpoints de la API se utilizan para exponer los servicios del bakend a la aplicación frontend. Ayudan a facilitar la comunicación entre cliente y servidor y a veces entre varios servidores.
+
+#### Almacenamiento de Datos
+
+Hay datos que deben persistir a través de las sesiones de los usuarios y suele ser de dos tipos:
+- **Bases de datos**: se utilizan para almacenar datos para un acceso rápido. Admiten el almacenamiento de una pequeña cantidad de datos a los que accede regularmente tu aplicación.
+- **Almacenes de datos**: pensados para la conservación de datos históricos. No se necesitan con mucha frecuencia en la aplicación pero se procesan con regularidad para generar información empresarial. 
+
+#### Almacenamiento en Caché
+
+Se implementa en algunas arquitecturas para servir el contenido más rápidamente a los usuarios. Una parte del contenido de la app suele ser repetitiva durante un cierto tiempo.
+
+Los tipos más populares son:
+- **Almacenamiento de datos en caché**: tecnologías como Redis, Memcache... permiten almacenar datos en caché para ahorrar consultas a la BDD para recuperar los mismos datos una y otra vez.
+- **Almacenamiento en caché de páginas web**: una CDN (Content Delivery Network) almacena en caché las páginas web de la misma manera que Redis almacena en caché los datos. Sólo se recomienda almacenar en caché las páginas web estáticas.
+
+#### Trabajos y servicios
+
+Aparte de exponer una interfaz a los usuarios (frontend) y gestionar sus peticiones (backend), hay otra categoría algo menos popular de componentes de aplicaciones web. Los trabajos suelen ser servicios en segundo plano destinados a completar tareas que no son sensibles al tiempo ni a la sincronización.
+
+Algunos ejemplos pueden ser trabajos que se encargan de la eliminación de duplicados, registros antiguos, envío de correos electrónicos con recordatorios a clientes...
+
+### Componentes del Lado del Cliente
+
+#### Interfaz de Usuario del FrontEnd
+Aspecto visual de tu aplicación. Es lo que tus usuarios ven y con lo que interactúan.
+
+Se construye principalmente con HTML, CSS y JavaScript.
+
+La interfaz de usuario del frontend puede ser una aplicación en sí misma con su propio ciclo de vida de desarrollo de software.
+
+#### Lógica Empresarial del Lado del Cliente
+A veces puedes necesitar almacenar alguna lógica de negocio en tu cliente para realizar operaciones más sencillas con rapidez. La lógica del lado del cliente, que seuele residir en tu aplicación frontend, puede ayudarte a saltarte el viaje al servidor y proporcionar a tus usuarios una experiencia más rápida.
+
 ## Tipos de Arquitectura de Aplicaciones Web
 
 Vamos a ver los tipos más populares en la actualidad.
@@ -120,4 +166,46 @@ Isomorphic reúne lo mejor de ambos mundos. El procesmiento y la interfaz de usu
 
 **Inconvenientes**:
 - La puesta en marcha requiere un conocimiento técnico profundo.
-- Hay que elegir frameworks, en su mayoría, basados en JS.
+- Hay que elegir frameworks, en su mayoría, basados en JS porque las opciones de stack tecnológico son limitadas.
+
+### Arquitectura Orientada al Servicio
+
+Una de las opciones más populares a la forma tradicional de monolito.
+Las aplicaciones web se dividen en servicios que representan una unidad funcional de negocio cada uno. Estos servicios están débilmente acoplados e interactúan entre sí mediante el paso de mensajes.
+
+La arquitectura orientada a servicios añade estabilidad y escalabilidad al stack tecnológico de tu aplicación. Sin embargo el tamaño de los servicios no está claramente definido y suelen estar vinculados a los componentes de negocio, no a los componentes técnicos y a veces el mantenimiento es problemático.
+
+**Ventajas**: 
+- Altamente escalables y fiables
+- Componentes reutilizables y se comparten para mejorar esfuerzos de desarrollo y mantenimiento.
+
+**Inconvenientes**:
+- El tamaño y el alcance de los servicios no son fijos y a veces son difíciles de mantener.
+- A veces se producen dependencias de servicios.
+
+### Arquitectura de Microservicios
+
+Se diseñó para resolver problemas de la arquitectura orientada a servicios.
+Son más modulares que los servicios y se centran en mantener cada componente pequeño y con un contexto limitado.
+
+Cada microservicio tiene su código y sus datos acoplados con mínimas dependencias de otros microservicios.
+
+Es altamente escalable y cada componente es fácil de mantener.
+Sin embargo, el mantenimiento del ciclo de vida de DevOps para una aplicación basada en microservicios requiere esfuerzos adicionales, por lo que podría no ser adecuado para casos de uso más pequeños.
+
+**Ventajas**: 
+- Componentes muy modulares, independientes y pueden reutilizarse en mayor medida que los de la arquitectura orientada a servicios.
+- Cada componente puede escalarse de forma independiente para satisfacer el tráfico variable de usuarios.
+- Altamente tolerante a fallos
+
+**Inconvenientes**:
+- Para proyectos pequeños tiene inconvenientes de mantenimiento de DevOps.
+
+
+## Bibliografía
+
+Apuntes personales, experiencia en el sector y referencias del siguiente material:
+
+{cite}`wikipedia`
+{cite}`kinsta`
+{cite}`jcastillo`
