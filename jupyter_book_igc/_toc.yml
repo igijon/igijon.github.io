@@ -3,12 +3,15 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: rvra
-- file: dwec
-  sections:
+parts:
+  - caption: Realidad Virtual y Realidad Aumentada
+    chapters:
+    - file: rvra
+  - caption: Desarrollo Web en Entorno Cliente
+    chapters:
+    - file: dwec/dwec
     - file: dwec/arquitectura
     - file: dwec/js_fundamentos
-- file: bibliografia
+    - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
