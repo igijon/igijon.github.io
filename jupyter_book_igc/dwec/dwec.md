@@ -19,7 +19,7 @@ Este módulo se imparte en el segundo curso del **Ciclo Formativo de Grado Super
 
 En este módulo trabajamos el desarrollo de aplicaciones web del lado del cliente partiendo de los conocimientos que el alumnado trae de programación del primer curso y construyendo a partir de lo siguientes contenidos: 
 
-![DWEC](image_dwec.png)
+![DWEC](dwec.png)
 
 ```{tableofcontents}
 ```
