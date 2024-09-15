@@ -14,6 +14,7 @@ parts:
     - file: dwec/js_fundamentos
     - file: dwec/tipos_primitivos
     - file: dwec/funciones
+    - file: dwec/arrays_objetos
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
