@@ -10,13 +10,13 @@ parts:
   - caption: Desarrollo Web en Entorno Cliente
     chapters:
     - file: dwec/dwec
-    - file: dwec/arquitectura
-    - file: dwec/js_fundamentos
-    - file: dwec/tipos_primitivos
-    - file: dwec/funciones
-    - file: dwec/arrays_objetos
-    - file: dwec/valor_referencia
-    - file: dwec/control_flujo
+    - file: dwec/arquitectura/arquitectura
+    - file: dwec/fundamentos/js_fundamentos
+    - file: dwec/fundamentos/tipos_primitivos
+    - file: dwec/fundamentos/funciones
+    - file: dwec/fundamentos/arrays_objetos
+    - file: dwec/fundamentos/valor_referencia
+    - file: dwec/fundamentos/control_flujo
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
