@@ -12,11 +12,12 @@ parts:
     - file: dwec/dwec
     - file: dwec/arquitectura/arquitectura
     - file: dwec/fundamentos/js_fundamentos
-    - file: dwec/fundamentos/tipos_primitivos
-    - file: dwec/fundamentos/funciones
-    - file: dwec/fundamentos/arrays_objetos
-    - file: dwec/fundamentos/valor_referencia
-    - file: dwec/fundamentos/control_flujo
+      sections:
+      - file: dwec/fundamentos/tipos_primitivos
+      - file: dwec/fundamentos/funciones
+      - file: dwec/fundamentos/arrays_objetos
+      - file: dwec/fundamentos/valor_referencia
+      - file: dwec/fundamentos/control_flujo
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
