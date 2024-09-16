@@ -15,6 +15,7 @@ parts:
     - file: dwec/tipos_primitivos
     - file: dwec/funciones
     - file: dwec/arrays_objetos
+    - file: dwec/valor_referencia
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
