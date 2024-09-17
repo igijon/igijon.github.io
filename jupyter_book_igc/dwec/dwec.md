@@ -18,8 +18,12 @@ kernelspec:
 Este módulo se imparte en el segundo curso del **Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web (DAW)**.
 
 ## Enlace de Discord
+![Alt text](image.png)
 
 https://discord.gg/RGAd7tgh
+
+
+
 
 ## Contenidos 
 
