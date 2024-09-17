@@ -17,17 +17,16 @@ kernelspec:
 
 Este módulo se imparte en el segundo curso del **Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web (DAW)**.
 
+
+## Contenidos 
+
+En este módulo trabajamos el desarrollo de aplicaciones web del lado del cliente partiendo de los conocimientos que el alumnado trae de programación del primer curso y construyendo a partir de lo siguientes contenidos: 
+
 ## Enlace de Discord
 ![Alt text](image.png)
 
 https://discord.gg/RGAd7tgh
 
-
-
-
-## Contenidos 
-
-En este módulo trabajamos el desarrollo de aplicaciones web del lado del cliente partiendo de los conocimientos que el alumnado trae de programación del primer curso y construyendo a partir de lo siguientes contenidos: 
 
 ![DWEC](dwec.png)
 
