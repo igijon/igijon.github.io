@@ -34,6 +34,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          npm install -g ijavascript
+          ijsinstall
 
       # Build the book
       - name: Build the book
