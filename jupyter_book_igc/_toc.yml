@@ -21,6 +21,7 @@ parts:
     - file: dwec/dom_eventos_formularios/dom
       sections:
       - file: dwec/dom_eventos_formularios/eventos
+      - file: dwec/dom_eventos_formularios/drag_drop
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
