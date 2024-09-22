@@ -24,11 +24,6 @@ En este módulo trabajamos el desarrollo de aplicaciones web del lado del client
 
 ![DWEC](dwec.png)
 
-## Enlace de Discord
-![Alt text](image.png)
-
-https://discord.gg/RGAd7tgh
-
 
 ```{tableofcontents}
 ```
