@@ -27,6 +27,8 @@ parts:
     - file: pia/introduccion/introduccion_ia
       sections:
       -file: pia/introduccion/conceptos
-  - file: bibliografia
+  - caption: Referencias
+    chapters:
+    - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
