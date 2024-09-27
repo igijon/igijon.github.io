@@ -38,10 +38,10 @@ Existen varios tipos de inteligencia artificial, clasificados según su capacida
 Diseñada para realizar tareas específicas. No tiene conciencia ni razonamiento general como los humanos, sino que se enfoca en resolver problemas concretos. 
 Dentro de este tipo, podemos encontrar: asistentes virtuales como *Siri*, *Alexa* y *Google Assistant*. Algoritmos de recomendación en plataformas como *Netflix* o *Amazon*. Sistemas de *reconocimiento de imágenes o voz*.
 
-- **b. IA Fuerte o General (Artificial General Intelligence, AGI)**
+- **IA Fuerte o General (Artificial General Intelligence, AGI)**
 Este tipo está aún en desarrollo. Se pretende que tenga la capacidad de entender, aprender y realizar tareas de manera similar a la inteligencia humana en cualquier campo, no solo en tareas específicas. Una AGI sería capaz de razonar, tomar decisiones complejas aprendiendo por sí mismo.
 
-- **c. Superinteligencia Artificial (Artificial Superintelligence, ASI)**
+- **Superinteligencia Artificial (Artificial Superintelligence, ASI)**
 Este es un concepto teórico aún. Es el concepto que imagina una IA que supera la inteligencia humana en todos los aspectos: creatividad, toma de decisiones, razonamiento, entre otros. Este nivel de IA podría transformar radicalmente la civilización, pero también plantea riesgos y dilemas éticos significativos.
 
 **2.  Clasificación según su capacidad de aprendizaje**
@@ -68,7 +68,7 @@ Este es un concepto teórico aún. Es el concepto que imagina una IA que supera 
     - **Aprendizaje Supervisado**: La IA aprende a partir de ejemplos etiquetados.
     - **Aprendizaje No Supervisado**: La IA busca patrones en datos no etiquetados.
     - **Aprendizaje por Refuerzo**: La IA aprende mediante prueba y error, como en el caso de los robots autónomos o los algoritmos de desarrollo de videojuegos.
-  - 
+  
 - **Redes Neuronales y Deep Learning**
   Estas técnicas simulan la estructura del cerebro humano a través de redes neuronales artificiales. Deep Learning es una subárea del aprendizaje automático que utiliza grandes redes neuronales para tareas como el reconocimiento de imágenes o el procesamiento de lenguaje natural.
 
@@ -96,7 +96,7 @@ Cada tipo de IA tiene diferentes aplicaciones y desafíos, lo que impulsa su des
 
 Los perfiles más relacionados con la Inteligencia Artificial se centran en el desarrollo, aplicación y optimización de modelos y algoritmos de este campo y podríamos destacar los siguientes.
 
-**- Ingeniero de Aprendizaje Automático (Machine Learning Engineer)**
+- **Ingeniero de Aprendizaje Automático (Machine Learning Engineer)**
 Se encarga de diseñar y desarrollar modelos de aprendizaje automático (machine learning). Implementa algoritmos de IA que permiten que los sistemas aprendan de los datos y mejoren con el tiempo.
 Tecnologías clave: *TensorFlow, PyTorch, Scikit-learn, Keras*.
 
