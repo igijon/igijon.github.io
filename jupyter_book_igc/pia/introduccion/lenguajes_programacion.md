@@ -107,3 +107,38 @@ Elegiremos el lenguaje de programación en base a:
 
     https://devguide.python.org/
 
+## R. Características principales
+- Orientado principalmente a Data Science
+- Es bueno para estadística y gráficos
+- Es eficaz en el almacenamiento de datos
+- Muy eficaz en el cálculo de arrays
+- Herramientas para análisis de datos, limpieza de datos...
+- Se utiliza mucho para visualización de datos
+- Es un lenguaje de alto nivel (con condicionales, bucles...)
+- Se usa en banca, comercio electrónico y sector sanitario.
+  
+## R. Herramientas y bibliotecas
+- Página oficial donde se puede descargar el paquete
+- Como IDE podemos utilizar R Studio
+- Como paquetes relevantes tenemos;
+  - GGPLOT2 para visualización de datos.
+  - mlr3 y caret para machine learning.
+  - Tidyverse para ciencia de datos
+
+## Lenguajes de marcas
+Sin programar podemos mostrar información estructurada, intercambiar información...
+
+```{nota}
+No son considerados lenguajes de programación, sería más correcto denominarlos **lenguajes informáticos**
+```
+
+Podemos clasificar como lenguajes de marcas: HTML, XML (es más bien un metalenguaje), JSON, JSONML (variable híbrida cd XML-JSON).
+
+```{note}
+También tenemos **AIML** que es un lenguaje de marcas para IA.
+```
+
+Los lenguajes de marcas nos permiten por ejemplo especificar los paámetros de configuración de una red neuronal o crear aplicaciones complejas.
+Con AIML puedo crear por ejemplo agentes conversacionales.
+También puedo procesar datasets que estén contenidos en documentos XML y con XSLT realizar consultas al dataset e insertar la información en una BD relacional.
+
