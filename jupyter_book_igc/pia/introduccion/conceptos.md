@@ -79,7 +79,7 @@ Utilizada en chatbots, asistentes virtuales o agentes de servicio al cliente, ca
 - **IA en Robótica**
   Se aplica en robots industriales, drones o robots autónomos, capaces de interactuar con el entorno físico. Los robots quirúrgicos y los vehículos autónomos son ejemplos clave.
 
-- **IA en Visión por Computadora**
+- **IA en Visión por Computador**
   Esta IA es capaz de interpretar imágenes o videos. Se usa en sistemas de reconocimiento facial, diagnóstico médico por imágenes o en la conducción autónoma.
 
 - **IA en Procesamiento de Lenguaje Natural (NLP)**
@@ -105,7 +105,7 @@ Especialista en analizar grandes volúmenes de datos, encontrar patrones y extra
 Tecnologías clave: *Python, R, SQL, Hadoop, Spark.*
 
 - **Ingeniero de IA (AI Engineer)**
-Desarrolla aplicaciones y soluciones que utilizan inteligencia artificial. Puede trabajar con aprendizaje profundo (deep learning), procesamiento de lenguaje natural (NLP) o visión por computadora.
+Desarrolla aplicaciones y soluciones que utilizan inteligencia artificial. Puede trabajar con aprendizaje profundo (deep learning), procesamiento de lenguaje natural (NLP) o visión por computador.
 Tecnologías clave: *TensorFlow, PyTorch, Keras, OpenCV, Natural Language Toolkit (NLTK)*.
 
 - **Investigador en IA (AI Researcher)**
