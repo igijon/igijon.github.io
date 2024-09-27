@@ -28,6 +28,7 @@ parts:
       sections:
       - file: pia/introduccion/conceptos
       - file: pia/introduccion/lenguajes_programacion
+      - file: pia/introduccion/transformaciones_xslt
   - caption: Referencias
     chapters:
     - file: bibliografia
