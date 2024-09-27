@@ -22,6 +22,11 @@ parts:
       sections:
       - file: dwec/dom_eventos_formularios/eventos
       - file: dwec/dom_eventos_formularios/drag_drop
+    - caption: Programación de IA
+      chapters:
+      - file: pia/introduccion/introduccion_ia
+        sections:
+        -file: pia/introduccion/conceptos
     - file: bibliografia
 #- file: notebooks
 #- file: markdown-notebooks
