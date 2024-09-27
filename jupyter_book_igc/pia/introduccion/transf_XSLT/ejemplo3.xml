@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejemplo3.xsl"?>
+  <!DOCTYPE menu [
+    <!ENTITY fechaActual "2021">
+    <!ENTITY cargo "5">
+  ]>
+  <menu fecha="&fechaActual;">
+    <comida>
+        <nombre>Ración de paella mixta</nombre>
+        <precio>9.00</precio>
+    </comida>
+    <comida>
+        <nombre>Ración de paella de pollo</nombre>
+        <precio>9.00</precio>
+    </comida>
+    <comida>
+        <nombre>Ración de paella de marisco</nombre>
+        <precio>12.00</precio>
+    </comida>
+    <comida>
+        <nombre>Bocadillo de lomo</nombre>
+        <precio>4.95</precio>
+    </comida>
+    <comida>
+        <nombre>Bocadillo de jamón</nombre>
+        <precio>5.95</precio>
+    </comida>
+    <comida>
+        <nombre>Bocadillo de tortilla</nombre>
+        <precio>3.95</precio>
+    </comida>
+  </menu>
