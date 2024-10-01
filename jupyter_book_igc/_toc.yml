@@ -19,11 +19,11 @@ parts:
       - file: dwec/fundamentos/valor_referencia
       - file: dwec/fundamentos/control_flujo
     - file: dwec/dom_eventos_formularios/dom
-    - file: dwec/modulos/modulos
       sections:
       - file: dwec/dom_eventos_formularios/eventos
       - file: dwec/dom_eventos_formularios/drag_drop
       - file: dwec/dom_eventos_formularios/formularios
+    - file: dwec/modulos/modulos
   - caption: Introducción a la programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
