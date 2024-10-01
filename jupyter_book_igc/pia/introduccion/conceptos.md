@@ -116,7 +116,7 @@ Tecnologías clave: Algoritmos avanzados, teoría matemática, frameworks de IA.
 Especialista en desarrollar aplicaciones que permiten a las máquinas procesar y entender el lenguaje humano. Trabajan en asistentes virtuales, chatbots, traducción automática y análisis de texto.
 Tecnologías clave: *NLTK, SpaCy, GPT, BERT, Transformers*.
 
-- **Ingeniero de Visión por Computadora (Computer Vision Engineer)**
+- **Ingeniero de Visión por Computador (Computer Vision Engineer)**
 Desarrolla aplicaciones que permiten a las máquinas interpretar y comprender imágenes y videos. Trabajan en reconocimiento facial, sistemas de conducción autónoma y análisis de imágenes médicas.
 Tecnologías clave: *OpenCV, TensorFlow, PyTorch, CNNs (redes neuronales convolucionales)*.
 
