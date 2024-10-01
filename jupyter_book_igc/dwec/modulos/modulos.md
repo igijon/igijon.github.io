@@ -44,23 +44,30 @@ Con la introducción de ES6, JS nativo introdujo módulos a través de las palab
 ### Definición y exportación de módulos en ES6
 ```js
 // students.js
+
+const records = [
+    { id: 14, name: "Kyle", grade: 86 }, 
+    { id: 73, name: "Suzy", grade: 87 }, 
+    { id: 112, name: "Frank", grade: 75 }, 
+    { id: 6, name: "Sarah", grade: 91 }
+ ];
 export function getName(studentID) {
-   var records = [
-      { id: 14, name: "Kyle", grade: 86 }, 
-      { id: 73, name: "Suzy", grade: 87 }, 
-      { id: 112, name: "Frank", grade: 75 }, 
-      { id: 6, name: "Sarah", grade: 91 }
-   ];
-   var student = records.find(student => student.id == studentID);
-   return student.name;
-}
+    let student = records.find(student => student.id == studentID);
+    return student.name;
+ }
+
+ export function getGrade(studentID) {
+     let student = records.find(student => student.id == studentID);
+     return student.grade;
+ }
 ```
 
 ### Importación de módulos en ES6
 ```js
 // main.js
-import { getName } from "/path/to/students.js";
-console.log(getName(73)); // Suzy
+import { getName, getGrade } from "./students.js";
+
+console.log(getName(73), getGrade(73)) //Suzy
 ```
 
 ### Exportar múltiples funciones
@@ -97,13 +104,15 @@ Se pueden cargar módulos en un fichero HTML usando el atributo `type="module"` 
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>Módulos ES6</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-   <script type="module" src="functions.js"></script>
-   <script type="module" src="script.js"></script>
+    <script type="module" src="students.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
 ```
