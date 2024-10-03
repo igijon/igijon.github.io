@@ -20,7 +20,7 @@ Algunas claves sobre la IA:
 Los conceptos de **datos, información, conocimiento y sabiduría** forman una jerarquía conocida como la **Pirámide DIKW**, la cual describe cómo los datos se transforman en sabiduría a medida que son procesados y comprendidos.
 - **Datos**: Hechos y observaciones crudas, sin procesar. Por sí solos no tienen un significado directo o contexto.
 - **Información**: Resultado de procesar, organizar y estructurar los datos para darles un significado. La información surge cuando los datos están contextualizados o presentados de una manera que hace que sean comprensibles o útiles.
-- **Conocimiento**: Capacidad de interpretar información y aplicarla. Se adquiere cuando la información se comprende y se combina con la experiencia, habilidades o criterios para poder tomar decisiones.
+- **Conocimiento**: Capacidad de interpretar información. Se adquiere cuando la información se comprende y se combina con la experiencia.
 - **Sabiduría**: Capacidad de tomar decisiones acertadas basadas en el conocimiento profundo y la experiencia. Implica no solo tener conocimiento, sino también cómo y cuándo aplicarlo de manera efectiva para lograr los resultados deseados.
 
 ![alt text](image.png)
