@@ -57,7 +57,7 @@ Ejemplo
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ejemplo.xsl"?>
 <!DOCTYPE menu [
-<!ENTITY fechaActual "2021">
+<!ENTITY fechaActual "2024">
 <!ENTITY cargo "5">
 ]>
 <menu fecha="&fechaActual;">
@@ -181,7 +181,7 @@ Ejemplo
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ejemplo3.xsl"?>
   <!DOCTYPE menu [
-    <!ENTITY fechaActual "2021">
+    <!ENTITY fechaActual "2024">
     <!ENTITY cargo "5">
   ]>
   <menu fecha="&fechaActual;">
