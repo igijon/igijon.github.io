@@ -80,7 +80,7 @@ Con `that` él mantiene el contexto, en base de lo último que ha dicho el bot p
 Puedo acceder a las variables que va tomando el chatbot pulsando el menú de la izquierda del chatbot:
 ![alt text](image-15.png)
 
-## Ejemplo 3
+## Ejemplo 3: Redirecciones
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -111,3 +111,92 @@ Puedo acceder a las variables que va tomando el chatbot pulsando el menú de la 
 ```{warning}
 En AIML no distingue entre mayúsculas y minúsculas pero sí entre caracteres acentuados o no... para ello, podemos crear redirecciones con `<srai>`
 ```
+## Ejemplo 4: Sentencias condicionales
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>CUANTO CUESTA UN *</pattern>
+	    <template>
+	        <think>
+	            <set name="objeto"><star/></set>
+	        </think>
+	        <condition name="objeto" value="ordenador">600€</condition>
+	        <condition name="objeto" value="refresco">2€</condition>
+	        <condition name="objeto" value="teclado">9,90€</condition>
+	    
+	        <condition name="objeto">
+	            <li value="helado">1,5€</li>
+	            <li value="jamón">100€</li>
+	            <li value="cajón">30€</li>
+	            <li value="monitor">99€</li>
+	        </condition>
+	    </template>
+    </category>
+</aiml>
+```
+![alt text](image-18.png)
+
+```{warning}
+Si eliminamos el tag `think`y dejamos sólo el elento `set`tenemos la siguiente salida:
+![alt text](image-19.png)
+Con `think`hacemos que esas inicializaciones ocurran de forma interna en el bot.
+```
+
+## Ejemplo 5: Aprendiendo
+Para hacer que nuestro bot vaya aprendiendo, utilizo el tag `learn`. Esto es muy útil si queremos que la base de conocimiento de nuestro bot vaya creciendo dinámicamente.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>APRENDE PREGUNTA * RESPUESTA *</pattern>
+	    <template>
+	        <think>
+	            <learn>
+	                <category>
+	                    <pattern><eval><star index="1"/></eval></pattern>
+	                    <!-- eval nos permite recuperar el valor del comodín de la categoría padre-->
+	                    <template><eval><star index="2"/></eval></template>
+	                </category>
+	            </learn>
+	        </think>
+	        <!--Los índices empiezan a contar en 1-->
+	        Vale, responderé con "<star index="2" /> a la pregunta "<star index="1" />" la proxima
+	    </template>
+    </category>
+</aiml>
+```
+
+![alt text](image-20.png)
+
+## Ejemplo 6: Traductor
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>CÓMO SE DICE * EN INGLÉS</pattern>
+	    <template>No sé cómo se dice <star /> en inglés, me lo enseñas?</template>
+	</category>
+	
+	<category>
+	    <pattern>* SE DICE * EN INGLÉS</pattern>
+	    <that>NO SÉ CÓMO SE DICE * EN INGLÉS, ME LO ENSEÑAS</that>
+	    <template>
+	        <think>
+	            <learn>
+	                <category>
+	                    <pattern>CÓMO SE DICE <eval><star index="1" /></eval> EN INGLÉS</pattern>
+	                    <template><eval><star index="2" /></eval></template>
+	                </category>
+	            </learn>
+	        </think>
+	        ¡Genial! Lo recordaré para la próxima vez
+	    </template>
+	</category>
+</aiml>
+```
+
+![alt text](image-21.png)
