@@ -200,3 +200,7 @@ Para hacer que nuestro bot vaya aprendiendo, utilizo el tag `learn`. Esto es muy
 ```
 
 ![alt text](image-21.png)
+
+```{note}
+En la página de https://es.botlibre.com/ tenemos un montón de ejemplos de bots con AIML que podemos utilizar y ver cómo están implementados ya que son bots mucho más complejos
+```
