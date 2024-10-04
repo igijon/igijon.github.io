@@ -7,26 +7,26 @@
   <menu fecha="&fechaActual;">
     <comida>
         <nombre>Ración de paella mixta</nombre>
-        <precio>9.00 + &cargo;%</precio>
+        <precio>9.00</precio>
     </comida>
     <comida>
         <nombre>Ración de paella de pollo</nombre>
-        <precio>9.00 + &cargo;%</precio>
+        <precio>9.00</precio>
     </comida>
     <comida>
         <nombre>Ración de paella de marisco</nombre>
-        <precio>12.00 + &cargo;%</precio>
+        <precio>12.00</precio>
     </comida>
     <comida>
         <nombre>Bocadillo de lomo</nombre>
-        <precio>4.95 + &cargo;%</precio>
+        <precio>4.95</precio>
     </comida>
     <comida>
         <nombre>Bocadillo de jamón</nombre>
-        <precio>5.95 + &cargo;%</precio>
+        <precio>5.95</precio>
     </comida>
     <comida>
         <nombre>Bocadillo de tortilla</nombre>
-        <precio>3.95 + &cargo;%</precio>
+        <precio>3.95</precio>
     </comida>
   </menu>
