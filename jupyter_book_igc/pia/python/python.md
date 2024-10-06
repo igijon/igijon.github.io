@@ -1,6 +1,6 @@
 # Programación en Python
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ```{warning}
 **Repositorio de referencia**
