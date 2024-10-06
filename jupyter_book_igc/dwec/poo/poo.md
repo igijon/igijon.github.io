@@ -496,3 +496,108 @@ console.log(rectangulo);
 Al igual que creamos campos privados con `#`, también tenemos métodos privados utilizando `#`
 ```
 
+## Prototipos en JS
+En JavaScript, tiodos los objetos tienen un prototipo. Un prototipo es también un objeto, y a su vez, tiene su propio prototipo. Este concepto, crea una cadena de prototipos, conocida como *prototype chain*. A través de los prototipos, un objeto puede delegar propiedades y métodos a otros objetos, permitiendo reutilización de código.
+
+```{note}
+https://developer.mozilla.org/es/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+```
+
+### Cadena de prototipos
+Todos los objetos en JavaScript están conectados a un prototipo común llamado `Object`. Esto permite que los objetos hereden propiedades y métodos definidos en `Object.prototype`.
+
+```js
+(()=>{
+let persona = {
+    nombre: "Luis",
+    edad: 34
+};
+console.log(persona.toString()); // [object Object]
+})()
+```
+En el ejemplo, el objeto `persona` no tiene propiedad o método `toString`. Sin embargo, JS lo encuentra en `Object.prototype`, lo que permite llamar a `persona.toString()`.
+
+### Vínculo de Objetos (Object Linkage)
+Con `Object.create()`podemos crear objetos que hereden de otros. Podemos crear una cadena de prototipos donde el objeto hijo puede acceder a las propiedades y métodos del objeto padre.
+
+```js
+(()=>{
+let persona = {
+    nombre: "Luis",
+    edad: 34
+};
+var personaNueva = Object.create(persona);
+console.log(personaNueva.edad); // 34
+})()
+```
+En este ejemplo estamos heredando la propiedad `edad` de `persona` a través de la cadena de prototipos.
+
+### Prototype en Objectos y Funciones
+Las funciones, en JS, tienen una propiedad llamada `prototype`que es eun objeto con una propiedad `constructor` que apunta a la propia función y un prototipo que es `Object`.
+
+```js
+(()=>{
+function Apple(type) {
+    this.type = type;
+    this.color = "red";
+}
+
+Apple.prototype.getInfo = function() {
+    return this.color + ' ' + this.type + ' apple';
+};
+
+let myApple = new Apple("Granny Smith");
+console.log(myApple.getInfo()); // "red Granny Smith apple"
+})()
+```
+Los objetos creados con literales o con `new`no tienen una propiedad `prototype`, pero se puede acceder a su prototipo utilizando `Object.getPrototypeOf(objeto)`
+
+```js
+let obj = {};
+console.log(Object.getPrototypeOf(obj));
+```
+### Prototype en Objetos Predefinidos
+Es posible extender los prototipos de objetos predefinidos como `String`, `Array` y `Object` añadiendo métodos adicionales. Esto permite que todos los objetos de este tipo en la aplicación, tengan acceso a los nuevos métodos. Sin embargo, esta práctica puede ser peligrosa en aplicciones grandes o cuando se utilizan múltiples bibliotecas, ya que puede causar conflictos.
+
+```js
+Array.prototype.forEachLog = function() {
+    for (let i of this) {
+        console.log(i);
+    }
+};
+
+let a = [1, 2, 3, 4];
+a.forEachLog();
+// Output: 1 2 3 4
+```
+Aunque esta técnica puede ser útil, también puede llevar a problemas de compatibilidad y mantenimiento en aplicaciones complejas.
+Una alternativa más segura es usar `Object.defineProperty` para definir métodos no enumerables, lo que evita que el método sea iterado en un bucle `for...in`:
+
+```js
+Object.defineProperty(Array.prototype, 'forEachLog', {
+    value: function() {
+        for (let i of this) {
+            console.log(i);
+        }
+    },
+    enumerable: false
+});
+
+//Esto asegura que `forEachLog` no aparezca en iteraciones `for...in`:
+
+
+let a = [1, 2, 3, 4];
+a.forEachLog(); // Output: 1 2 3 4
+
+for (let key in a) {
+    console.log(key); // Output: 0 1 2 3
+}
+```
+
+## Referencias
+
+Apuntes personales, experiencia en el sector y referencias del siguiente material:
+
+{cite}`mdn`
+{cite}`fherrera`
+{cite}`jcastillo`
