@@ -492,3 +492,7 @@ console.log(rectangulo);
 ```
 ![alt text](image-10.png)
 
+```{warning}
+Al igual que creamos campos privados con `#`, también tenemos métodos privados utilizando `#`
+```
+
