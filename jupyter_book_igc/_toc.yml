@@ -34,6 +34,10 @@ parts:
       - file: pia/introduccion/lenguajes_programacion
       - file: pia/introduccion/transformaciones_xslt
       - file: pia/introduccion/agentes_conversacionales_aiml
+    - file: pia/python/python
+      sections:
+      - file: pia/python/print_string_input
+
   - caption: Referencias
     chapters:
     - file: bibliografia
