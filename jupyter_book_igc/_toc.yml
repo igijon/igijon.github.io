@@ -25,6 +25,7 @@ parts:
       - file: dwec/dom_eventos_formularios/formularios
     - file: dwec/modulos/modulos
     - file: dwec/vite/vite
+    - file: dwec/poo/poo
   - caption: Introducción a la programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
