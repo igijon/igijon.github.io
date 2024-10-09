@@ -39,6 +39,7 @@ parts:
       sections:
       - file: pia/python/print_string_input
       - file: pia/python/tipos_datos
+      - file: pia/python/string_listas_diccionarios_tuplas
 
   - caption: Referencias
     chapters:
