@@ -4,9 +4,11 @@
 format: jb-book
 root: intro
 parts:
+
   - caption: Realidad Virtual y Realidad Aumentada
     chapters:
     - file: rvra
+
   - caption: Desarrollo Web en Entorno Cliente
     chapters:
     - file: dwec/dwec
@@ -27,6 +29,7 @@ parts:
     - file: dwec/vite/vite
     - file: dwec/poo/poo
     - file: dwec/almacenamiento/almacenamiento
+
   - caption: Introducción a la programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
@@ -40,6 +43,7 @@ parts:
       - file: pia/python/print_string_input
       - file: pia/python/tipos_datos
       - file: pia/python/string_listas_diccionarios_tuplas
+      - file: pia/python/control_flujo
 
   - caption: Referencias
     chapters:
