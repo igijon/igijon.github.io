@@ -26,6 +26,7 @@ parts:
     - file: dwec/modulos/modulos
     - file: dwec/vite/vite
     - file: dwec/poo/poo
+    - file: dwec/almacenamiento/almacenamiento
   - caption: Introducción a la programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
