@@ -44,6 +44,7 @@ parts:
       - file: pia/python/tipos_datos
       - file: pia/python/string_listas_diccionarios_tuplas
       - file: pia/python/control_flujo
+      - file: pia/python/funciones_metodos
 
   - caption: Referencias
     chapters:
