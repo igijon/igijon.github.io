@@ -38,6 +38,7 @@ parts:
     - file: pia/python/python
       sections:
       - file: pia/python/print_string_input
+      - file: pia/python/tipos_datos
 
   - caption: Referencias
     chapters:
