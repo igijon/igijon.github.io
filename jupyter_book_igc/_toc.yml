@@ -46,6 +46,7 @@ parts:
       - file: pia/python/control_flujo
       - file: pia/python/funciones_metodos
       - file: pia/python/ficheros
+      - file: pia/python/poo
 
   - caption: Referencias
     chapters:
