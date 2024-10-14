@@ -1,0 +1,6 @@
+soy el nuevo textosi no añado 
+ no agrega una nueva líneaAhora sí escribe saltos
+de línea y          tabuladoresEsto es una líneaEsto es otra líneaTercera líneaEsto es una línea
+Esto es otra línea
+Tercera línea
+Bienvenido

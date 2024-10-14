@@ -45,6 +45,7 @@ parts:
       - file: pia/python/string_listas_diccionarios_tuplas
       - file: pia/python/control_flujo
       - file: pia/python/funciones_metodos
+      - file: pia/python/ficheros
 
   - caption: Referencias
     chapters:
