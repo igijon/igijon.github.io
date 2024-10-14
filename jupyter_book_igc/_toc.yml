@@ -47,6 +47,7 @@ parts:
       - file: pia/python/funciones_metodos
       - file: pia/python/ficheros
       - file: pia/python/poo
+      - file: pia/python/excepciones
 
   - caption: Referencias
     chapters:
