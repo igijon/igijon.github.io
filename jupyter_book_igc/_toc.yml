@@ -48,6 +48,7 @@ parts:
       - file: pia/python/ficheros
       - file: pia/python/poo
       - file: pia/python/excepciones
+      - file: pia/python/modulos_paquetes
 
   - caption: Referencias
     chapters:
