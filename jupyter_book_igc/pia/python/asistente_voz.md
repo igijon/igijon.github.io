@@ -17,5 +17,27 @@ pip install pyttsx3
 pip install SpeechRecognition
 ```
 
+- `PyAudio`: se utiliza en conjunto con `SpeechRecognition` para manejar audio desde el micrófono.
 
+```bash
+pip install pyaudio
+```
+
+```{warning}
+En algunos sistemas operativos, como MacOS, podemos tener el problema `Failed building wheel for PyAudio` que podemos solucionar mediante la instalación de `portaudio`:
+
+```bash
+brew install portaudio
+```
+
+Después instalamos `pyaudio` con el comando anterior y debería ir OK.
+```
+
+```{warning}
+Desde la versión 3.12 de Python, debemos instalar `distutils` aparte (antes se incluía en el paquete estándar), lo podemos instalar con:
+
+```bash
+pip install setuptools
+```
+```
 
