@@ -31,7 +31,6 @@ brew install portaudio
 ```
 
 Después instalamos `pyaudio` con el comando anterior y debería ir OK.
-```
 
 ```{warning}
 Desde la versión 3.12 de Python, debemos instalar `distutils` aparte (antes se incluía en el paquete estándar), lo podemos instalar con:
@@ -39,5 +38,8 @@ Desde la versión 3.12 de Python, debemos instalar `distutils` aparte (antes se 
 ```bash
 pip install setuptools
 ```
+```{warning}
+Proyecto github: https://github.com/igijon/python_rec_voz_yfinance_pywhatkit
+
 ```
 
