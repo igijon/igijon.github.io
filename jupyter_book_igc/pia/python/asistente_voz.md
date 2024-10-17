@@ -1,6 +1,11 @@
 # Creación de un pequeño asistente de voz
 
 ```{warning}
+Proyecto github: https://github.com/igijon/python_rec_voz_yfinance_pywhatkit
+
+```
+
+```{warning}
 En primer lugar debes tener creada una carpeta donde implementarás el proyecto y un entorno virtual para aislar todas las dependencias.
 Lo puedes ver aquí: [Entorno Virtual](entorno_virtual.md)
 ```
@@ -38,8 +43,15 @@ Desde la versión 3.12 de Python, debemos instalar `distutils` aparte (antes se 
 ```bash
 pip install setuptools
 ```
-```{warning}
-Proyecto github: https://github.com/igijon/python_rec_voz_yfinance_pywhatkit
 
+## Ejemplo con `yfinance` y `pywhatkit`
+
+### `yfinance`
+
+Es una herramienta útil para descargar y analizar datos financieros de Yahoo Finance. Es ampliamente utilizada en proyectos relacionados con finanzas, análisis bursátil, trading algorítmico y análisis cuantitativo. La biblioteca facilita el acceso a datos históricos del mercado financiero, como precios de acciones, datos sobre dividendos... y otros indicadores relacionados.
+
+En primer lugar debemos instalar la biblioteca:
+```bash
+pip install yfinance
 ```
 
