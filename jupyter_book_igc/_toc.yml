@@ -30,7 +30,7 @@ parts:
     - file: dwec/poo/poo
     - file: dwec/almacenamiento/almacenamiento
 
-  - caption: Introducción a la programación en IA
+  - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
       sections:
