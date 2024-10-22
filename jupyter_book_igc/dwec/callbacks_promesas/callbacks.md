@@ -31,8 +31,9 @@ buscarHerore (heroeId, ( heroe ) => {
     console.log( heroe )
 })
 ```
+![alt text](image.png)
 
-## Estándar de argumentos en callbacks
+### Estándar de argumentos en callbacks
 ```js
 //callbacks.js
 export const buscarHerore = (id, callback ) => {
@@ -57,7 +58,11 @@ buscarHerore (heroeId, ( err, heroe ) => {
     }
 })
 ```
-## Callback Hell o Pyramid of Doom
+
+![alt text](image-1.png)
+
+
+### Callback Hell o Pyramid of Doom
 El uso excesivo de callbacks puede llevar a una situación conocida como "Callback hell" o "Pyramid of doom", donde el código se vuelve difícil de leer y mantener debido a la anidación profunda de funciones.
 
 ```js
