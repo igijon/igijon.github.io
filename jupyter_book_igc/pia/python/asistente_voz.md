@@ -44,7 +44,7 @@ Desde la versión 3.12 de Python, debemos instalar `distutils` aparte (antes se 
 pip install setuptools
 ```
 
-## Ejemplo con `yfinance` y `pywhatkit`
+## Ejemplo con `yfinance` 
 
 ### `yfinance`
 
@@ -55,3 +55,7 @@ En primer lugar debemos instalar la biblioteca:
 pip install yfinance
 ```
 
+Podemos importarla en nuestra aplicación del siguiente modo:
+```py
+import yfinance as yf
+```
