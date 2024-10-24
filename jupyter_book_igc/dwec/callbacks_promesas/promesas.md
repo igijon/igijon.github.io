@@ -572,3 +572,4 @@ import { heroeIfAwait } from './js/await';
 
 heroeIfAwait('iron');
 ```
+![alt text](image-13.png)
