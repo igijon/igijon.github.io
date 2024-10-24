@@ -29,9 +29,9 @@ parts:
     - file: dwec/vite/vite
     - file: dwec/poo/poo
     - file: dwec/almacenamiento/almacenamiento
-    - file: dwec/callbacks/callbacks_promesas
+    - file: dwec/callbacks_promesas/callbacks_promesas
       sections:
-      - file: dwec/callbacks/callbacks
+      - file: dwec/callbacks_promesas/callbacks
 
 
   - caption: Programación en IA
