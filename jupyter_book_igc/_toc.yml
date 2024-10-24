@@ -32,6 +32,7 @@ parts:
     - file: dwec/callbacks_promesas/callbacks_promesas
       sections:
       - file: dwec/callbacks_promesas/callbacks
+      - file: dwec/callbacks_promesas/promesas
 
 
   - caption: Programación en IA
