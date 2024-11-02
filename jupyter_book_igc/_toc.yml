@@ -60,6 +60,7 @@ parts:
     - file: pia/plataformas/plataformas
       sections:
       - file: pia/plataformas/google_cloud
+      - file: pia/plataformas/aws
 
   - caption: Referencias
     chapters:
