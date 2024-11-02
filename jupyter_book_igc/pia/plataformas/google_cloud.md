@@ -83,3 +83,29 @@ El modelo sólo detecta que hay texto, después, sería necesario aplicar un mod
 Cuando las funcionalidades de la API de Vision no son suficientes y es necesario entrenar modelos de aprendizaje automático para reconocimiento de imagen con parámetros concretos o detectar elementos muy concretos de un ámbito de actuación, es mejor recurrir a **AutoML Vision**, integrado o no, dentro de **Vertex AI**
 ```
 
+## Dialogflow
+
+Es una herramienta de GCP para aplicaciones de comprensión del lenguaje natural.
+Está orientada y optimizada para crear una interfaz de usuario de conversación, con la facilidad extra de poder integrarla en todo tipo de aplicaciones, sistemas automatizados, robots...
+Además, permite la implementación de la extensión de **Agent Assist**, para trabajar en colaboración con agentes humanos en un centro de atención al cliente.
+Una de las características más potentes de esta herramienta, es la posibilidad de hacer llamadas a un servicio predefinido. 
+Ejemplo: si el usuario desea reservar mesa en tu restaurante, el servicio puede verificar la BDD y responder acerca de disponibilidad de día y hora deseados.
+
+![alt text](image-15.png)
+
+Dialogflow acepta entradas de texto o audio, por ejemplo a través de Google Assistant, o desde una llamada de teléfono. También puede responder a través de texto o de vozsintética.
+Esta herramienta es parte de la oferta de **Conversational AI** dentro de Google Cloud, que profee de varios servicios que complementan **Dialogflow** para crear una aplicación de negocio.
+
+
+## Otras herramientas
+
+- **Procesamiento del Lenguaje Natural**
+  - **Cloud Natural Language API**: para el análisis de sentimiento, detección de entidades y clasificación de texto. Se utiliza para analizar opiniones de clientes y categorizar contenido.
+- **Traducción y conversión de texto a voz**
+  - **Cloud Translation**: traducción automática de más de 100 idiomas con soporte para traducción en tiempo real.
+  - **Text-to-Speech y Speech-to-Text**: convierte texto en voz y voz en texto, con capacidades avanzadas para varios idiomas.
+- **Análisis y predicción de datos**:
+  - **AutoML**: herramienta para entrenar modelos de aprendizaje automáticos personalizados sin necesidad de conocimientos avanzados en IA.
+- **Analítica de vídeo**:
+  - **Vídelo Inteliggence API**: análisis de vídeo para detección de objetos, escenas y contenido inapropiado. Muy útil para marketing y análisis de contenido visual.
+  
