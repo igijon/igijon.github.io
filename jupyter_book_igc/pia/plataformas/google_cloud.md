@@ -48,3 +48,38 @@ Para poder probar e implementar el modelo, es necesario crear un **endpoint** o 
 
 ![alt text](image-10.png)
 
+## VisionAI
+
+GCP cuenta con un producto de reconocimiento de imagen entrenado genérico que puede ser útil cuando no se cuenta con conjuntos de datos ni experiencia en creación y entrenamiento de modelos.
+Este API ofrece:
+- **Reconocimiento facial**
+- **Reconocimiento de objetos de una imagen**
+- **Identificación de etiquetas para una imagen**
+- **Extracción de texto de una imagen**
+- **Detección de elementos no seguros en imagen**: violencia, sexo, racismo...
+
+En el caso de reconocimiento facial, el modelo detecta los elementos del rostro y según sus posiciones relativas ha sido entrenado para etiquetar respecto a las principales emoviones. También detecta la orientación del rostro en la imagen.
+![alt text](image-11.png)
+
+También se pueden reconocer objetos en una imagen a través de la detección de bordes y formas, ya que el modelo ha sido entrenado con una gran cantidad de imágenes etiquetadas que incluían objetos de todo tipo. 
+
+```{note}
+Si necesitásemos que se reconociesen en la imagen objetos peculiares o muy originales, tendríamos que entrenar nuestro propio modelo con imágenes bien etiquetadas que contuviesen dichos objetos
+```
+![alt text](image-12.png)
+
+En muchas aplicaciones, especialmente si van a tener una calificación por edades que garantice un uso seguro por parte de menores, es necesario implementar filtros que bloqueen o adviertan de imágenes que contengan elementos o situaciones sensibles.
+
+![alt text](image-13.png)
+
+Una utilidad muy extendida para esta API es la de detección de texto en imagen. El modelo reconoce los trazos típicos de caracteres escritos y lo entrega por bloques. 
+
+```{note}
+El modelo sólo detecta que hay texto, después, sería necesario aplicar un modelo de procesamiento del lenguaje para clasificar la intención o significado de dichos textos y así poder clasificarlo para su uso posterior.
+```
+![alt text](image-14.png)
+
+```{warning}
+Cuando las funcionalidades de la API de Vision no son suficientes y es necesario entrenar modelos de aprendizaje automático para reconocimiento de imagen con parámetros concretos o detectar elementos muy concretos de un ámbito de actuación, es mejor recurrir a **AutoML Vision**, integrado o no, dentro de **Vertex AI**
+```
+
