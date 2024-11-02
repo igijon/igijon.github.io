@@ -57,6 +57,9 @@ parts:
       - file: pia/python/modulos_paquetes
       - file: pia/python/entorno_virtual
       - file: pia/python/asistente_voz
+    - file: pia/plataformas/plataformas
+      sections:
+      - file: pia/plataformas/google_cloud
 
   - caption: Referencias
     chapters:
