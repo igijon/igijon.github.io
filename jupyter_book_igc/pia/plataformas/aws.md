@@ -13,3 +13,20 @@ En el ámbito de la inteligencia artificial, cuenta con un servicio administrado
 
 Ofrece servicios más concretos y enfocados en aplicaciones concretas de visión artificial, bots conversacionales y analítica avanzada. 
 
+## SageMaker
+Se encuentra dentro de las opciones que ofrece la plataforma AWS en el ámbito de la inteligencia artificial.
+Es el entorno integrado para la creación, entrenamiento y despliegue de modelos de machine learning en AWS.
+Contiene varios servicios que se gestionan a través de un panel de control, un IDE personalizado llamado **SageMaker Studio** y una interfaz de visualización y presentación llamada **Canva**. 
+La mayoría del trabajo de un **MLops** se va a desarrollar dentro de **SageMaker Studio**, que ofrece la experiencia de programación en formato **notebook** con una serie de herramientas de apoyo extra y una funcionalidad muy interesante llamada **Autopilot**.
+
+![alt text](image-17.png)
+
+El panel de control desde el que se pueden lanzar y gestionar los proyectos, muestra todos los parámetros del mismo, como los usuarios que están colaborando o las políticas de acceso.
+
+![alt text](image-18.png)
+
+Para cada fase del proceso, hay una sección con los servicios más utilizados, donde se puede ir dando de alta y lanzando el dataset, arquitectura del modelo, modelo predictivo y despliegue.
+
+![alt text](image-19.png)
+
+Como hemos comentado previamente, SageMaker cuenta con una utilidad para automatizar la parte más técnica del proceso de creación y entrenamiento de un modelo de aprendizaje automático. **Autopilot** analiza el dataset y la morfología de los datos objetivo y automatiza la selección del tipo de modelo y parámetros asociados al entrenamiento. Pero este servicio tiene un coste mayor que el proyecto normal.
