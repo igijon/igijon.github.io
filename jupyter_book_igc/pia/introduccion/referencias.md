@@ -7,6 +7,6 @@ Apuntes personales, experiencia en el sector y consultas entre otros en el sigui
 {cite}`IA`
 
 ```{bibliography}
-:filter: {"referencias"}
+:filter: docname in docnames
 ```
 
