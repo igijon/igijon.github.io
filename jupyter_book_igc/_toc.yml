@@ -27,6 +27,7 @@ parts:
       - file: dwec/dom_eventos_formularios/eventos
       - file: dwec/dom_eventos_formularios/drag_drop
       - file: dwec/dom_eventos_formularios/formularios
+      - file: dwec/dom_eventos_formularios/referencias
     - file: dwec/modulos/modulos
     - file: dwec/vite/vite
     - file: dwec/poo/poo
