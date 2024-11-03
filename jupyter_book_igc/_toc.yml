@@ -29,6 +29,8 @@ parts:
     - file: dwec/vite/vite
     - file: dwec/poo/poo
     - file: dwec/almacenamiento/almacenamiento
+      sections:
+      - file: dwec/almacenamiento/referencias
     - file: dwec/callbacks_promesas/callbacks_promesas
       sections:
       - file: dwec/callbacks_promesas/callbacks

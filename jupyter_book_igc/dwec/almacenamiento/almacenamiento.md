@@ -139,10 +139,3 @@ En el ejemplo:
 **2. Definimos un `objectStore`** para almacenar datos de clientes con un índice para `name`y `email`
 **3. Añadimos un cliente** a la BDD dentro de una transacción y manejamos los eventos éxito y error.
 
-## Referencias
-
-Apuntes personales, experiencia en el sector, mi IA favorita y referencias del siguiente material:
-
-{cite}`mdn`
-{cite}`fherrera`
-{cite}`jcastillo`
