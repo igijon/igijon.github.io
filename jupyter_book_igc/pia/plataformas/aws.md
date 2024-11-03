@@ -30,3 +30,25 @@ Para cada fase del proceso, hay una sección con los servicios más utilizados, 
 ![alt text](image-19.png)
 
 Como hemos comentado previamente, SageMaker cuenta con una utilidad para automatizar la parte más técnica del proceso de creación y entrenamiento de un modelo de aprendizaje automático. **Autopilot** analiza el dataset y la morfología de los datos objetivo y automatiza la selección del tipo de modelo y parámetros asociados al entrenamiento. Pero este servicio tiene un coste mayor que el proyecto normal.
+
+## Rekognition
+
+Es el servicio de reconocimiento de imagen de AWS ya pre-entrenado y desplegado, que ya se puede probar a través de una interfaz demostrativa, y que se puede integrar en cualquier proyecto mediante llamadas a su API.
+
+Un primer modo, de reconocimiento de "etiquetas" en una imagen, da como resultado los objetos que se podrían encontrar en dicha imagen.
+
+![alt text](image-20.png)
+
+El modo de moderación de imágenes, detecta el grado de probabilidad de que la imagen contenga contenido sensible que deba desenfocarse o que deba activar algún tipo de acción.
+
+![alt text](image-21.png)
+
+En el modo de reconocimiento facial, se reconocen con bastante precisión factores como rasgos masculinos o femeninos, si está sonriendo o demostrando alguna emoción concreta detectable, el rango de edad, etc.
+![alt text](image-22.png)
+
+Otro modo interesante, es la función de comparación facial, para identificar el rostro de determinadas personas dentro de otras imágenes.
+![alt text](image-23.png)
+
+Finalmente, también se puede reconocer la presencia de texto en una imagen, identificando letras y números o caracteres especiales, devolviendo la cadena de caracteres reconocida como salida de la función.
+![alt text](image-24.png)
+
