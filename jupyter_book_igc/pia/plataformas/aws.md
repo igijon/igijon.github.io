@@ -52,3 +52,27 @@ Otro modo interesante, es la función de comparación facial, para identificar e
 Finalmente, también se puede reconocer la presencia de texto en una imagen, identificando letras y números o caracteres especiales, devolviendo la cadena de caracteres reconocida como salida de la función.
 ![alt text](image-24.png)
 
+## Comprehend
+
+Es el módulo de procesamiento de lenguaje natural.
+```{note}
+**Procesamiento del lenguaje natural (NLP)**, es el conjunto de técnicas computacionales en el ámbito del aprendizaje automático, que tienen como objetivo identificar la intención del interlocutor, contenida en una expresión escrita, o hablada y transformarla a texto escrito y clasificarla o asociarla a opciones o valores de variables de salida.
+Ejemplo: un algoritmo puede detectar, a partir de una valoración que hace un usuario de una película, si el comentario refleja una actitud positiva o negativa, es decir, si le ha gustado o no.
+```
+![alt text](image-25.png)
+
+AWS Comprehend, trabaja bien con los **tokens** o palabras clave presentes en diferentes tipos de texto, pero es necesario configurar el tipo de problema para que el modelo pueda trabajar.
+
+Comprehend, divide el texto en unidades con sentido y las analiza. 
+Por ejemplo, frente a un mensaje como el siguiente, la herramienta puede identificar expresiones clave que puedan contribuir a la ejecución de tareas posteriores.
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+También, puede encontrar unidades de información como fechas, cantidades, etc.
+
+![alt text](image-28.png)
+
+Una función muy utilizada en este tipo de modelos es el análisis de sentimiento, que nos puede dar un valor aproximado del grado de positividad o negatividad que hay en un texto. En este ejemplo, vemos como asigna un 99% de negatividad a un comentario negativo en una web de tienda online.
+![alt text](image-29.png)
