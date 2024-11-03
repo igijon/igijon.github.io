@@ -76,3 +76,18 @@ También, puede encontrar unidades de información como fechas, cantidades, etc.
 
 Una función muy utilizada en este tipo de modelos es el análisis de sentimiento, que nos puede dar un valor aproximado del grado de positividad o negatividad que hay en un texto. En este ejemplo, vemos como asigna un 99% de negatividad a un comentario negativo en una web de tienda online.
 ![alt text](image-29.png)
+
+
+## Otras herramientas
+
+- **Reconocimiento de voz y conversión de texto a voz**:
+  - **Amazon Transcribe**: transcripción de audio a texto en varios idiomas, útil para subtitulado y transcripciones automáticas.
+  - **Amazon Polly**: Genera voces realistas a partir de texto, ideal para aplicaciones de accesibilidad y asistentes de voz.
+- **Traducción automática**:
+  - **Amazon Translate**: traducción automática en tiempo real, útil para aplicaicones globales y servicios multilingües.
+- **Automatización y bots conversacionales**:
+  - **Amazon Lex**: la tecnología IA que impulsa Alexa, permite construir chatbots de reconocimiento de voz y texto.
+- **Analítica de video y streaming**:
+  - **Amazon Kniesis Video Stream**: análisis de vídeo en tiempo real, útil en aplicaciones de vigilancia y análisis de tráfico y transmisiones en vivo.
+- **Servicios de salud**:
+  - **Amazon HealthLake**: almacena, estructura y analiza datos de salud utilizando IA para mejorar la eficiencia en aplicaciones médicas.
