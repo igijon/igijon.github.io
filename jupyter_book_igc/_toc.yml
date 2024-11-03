@@ -22,6 +22,7 @@ parts:
       - file: dwec/fundamentos/arrays_objetos
       - file: dwec/fundamentos/valor_referencia
       - file: dwec/fundamentos/control_flujo
+      - file: dwec/fundamentos/referencias
     - file: dwec/dom_eventos_formularios/dom
       sections:
       - file: dwec/dom_eventos_formularios/eventos
