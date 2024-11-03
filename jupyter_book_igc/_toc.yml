@@ -37,6 +37,7 @@ parts:
       sections:
       - file: dwec/callbacks_promesas/callbacks
       - file: dwec/callbacks_promesas/promesas
+      - file: dwec/callbacks_promesas/referencias
     - file: dwec/com_asincrona/comunicacion_asincrona
     
 
