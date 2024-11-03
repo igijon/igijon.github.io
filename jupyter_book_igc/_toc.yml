@@ -30,6 +30,8 @@ parts:
       - file: dwec/dom_eventos_formularios/formularios
       - file: dwec/dom_eventos_formularios/referencias
     - file: dwec/modulos/modulos
+      sections:
+      - file: dwec/modulos/referencias
     - file: dwec/vite/vite
     - file: dwec/poo/poo
     - file: dwec/almacenamiento/almacenamiento
