@@ -594,10 +594,3 @@ for (let key in a) {
 }
 ```
 
-## Referencias
-
-Apuntes personales, experiencia en el sector y referencias del siguiente material:
-
-{cite}`mdn`
-{cite}`fherrera`
-{cite}`jcastillo`

@@ -34,6 +34,8 @@ parts:
       - file: dwec/modulos/referencias
     - file: dwec/vite/vite
     - file: dwec/poo/poo
+      sections:
+      - file: dwec/poo/referencias
     - file: dwec/almacenamiento/almacenamiento
       sections:
       - file: dwec/almacenamiento/referencias
