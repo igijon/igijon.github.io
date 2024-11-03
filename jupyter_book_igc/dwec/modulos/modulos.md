@@ -116,10 +116,3 @@ Se pueden cargar módulos en un fichero HTML usando el atributo `type="module"` 
 </body>
 </html>
 ```
-
-## Referencias
-
-Apuntes personales, experiencia en el sector y referencias del siguiente material:
-
-{cite}`mdn`
-{cite}`jcastillo`
