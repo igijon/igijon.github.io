@@ -33,6 +33,8 @@ parts:
       sections:
       - file: dwec/modulos/referencias
     - file: dwec/vite/vite
+      sections:
+      - file: dwec/vite/referencias
     - file: dwec/poo/poo
       sections:
       - file: dwec/poo/referencias
@@ -47,7 +49,6 @@ parts:
     - file: dwec/com_asincrona/comunicacion_asincrona
       sections:
       - file: dwec/com_asincrona/referencias
-
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
@@ -70,12 +71,13 @@ parts:
       - file: pia/python/modulos_paquetes
       - file: pia/python/entorno_virtual
       - file: pia/python/asistente_voz
+      - file: pia/python/referencias
     - file: pia/plataformas/plataformas
       sections:
       - file: pia/plataformas/google_cloud
       - file: pia/plataformas/aws
       - file: pia/plataformas/ibm
-
+      - file: pia/plataformas/referencias
   - caption: Referencias
     chapters:
     - file: bibliografia

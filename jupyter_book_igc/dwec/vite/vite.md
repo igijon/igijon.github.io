@@ -170,9 +170,3 @@ Si queremos modificar las opciones de ejecución o de generación de la build, t
 Aquí https://github.com/igijon/javascript_vite_modulos tenéis un repositorio para analizar los primeros pasos de Vite.
 ```
 
-## Referencias
-
-Apuntes personales, experiencia en el sector y referencias del siguiente material:
-
-{cite}`mdn`
-{cite}`jcastillo`
