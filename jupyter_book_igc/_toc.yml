@@ -39,7 +39,8 @@ parts:
       - file: dwec/callbacks_promesas/promesas
       - file: dwec/callbacks_promesas/referencias
     - file: dwec/com_asincrona/comunicacion_asincrona
-    
+      sections:
+      - file: dwec/com_asincrona/referencias
 
   - caption: Programación en IA
     chapters:
