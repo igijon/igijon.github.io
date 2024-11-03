@@ -4,6 +4,5 @@ Apuntes personales, experiencia en el sector y consultas entre otros en el sigui
 
 ```{bibliography}
 :filter: docname in docnames
-
 ```
 
