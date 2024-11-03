@@ -201,11 +201,3 @@ Sin embargo, el mantenimiento del ciclo de vida de DevOps para una aplicación b
 **Inconvenientes**:
 - Para proyectos pequeños tiene inconvenientes de mantenimiento de DevOps.
 
-
-## Bibliografía
-
-Apuntes personales, experiencia en el sector y referencias del siguiente material:
-
-{cite}`wikipedia`
-{cite}`kinsta`
-{cite}`jcastillo`

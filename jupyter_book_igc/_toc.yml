@@ -13,6 +13,8 @@ parts:
     chapters:
     - file: dwec/dwec
     - file: dwec/arquitectura/arquitectura
+      sections:
+      - file: dwec/arquitectura/referencias
     - file: dwec/fundamentos/js_fundamentos
       sections:
       - file: dwec/fundamentos/tipos_primitivos
