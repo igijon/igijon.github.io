@@ -24,3 +24,15 @@ Por último, cabe destacar el análisis de las categorías semánticas de las di
 
 ![alt text](image-34.png)
 
+## Otras herramientas
+
+- **Visión por computadora**:
+  - **IBM Watson Visual Recognition**: herramienta de reconocimiento de imágenes que permite identificar objetos, etiquetas y clasificar contenido visual. Utilizada envigilancia de aplicaciones de organización de contenido.
+- **Reconocimiento de voz y conversión de texto a voz**:
+  - **IBM Watson Speetch To Text y Text To Speech**: servicios de transcripción de voz a texto y de conversión de texto a voz con capacidades avanzadas de personalización. Usados en call centers y accesibilidad.
+- **Análisis y predicción de datos**:
+  - **Watson Machine Learning**: plataforma de aprendizaje automático para entrenar y desplegar modelos. Popular en aplicaciones financieras y de análisis de datos.
+- **Automatización y bots conversacionales**:
+  - **IBM Watson assistant**: plataforma para crear chatbots con IA que se pueden integrar en sitios web, aplicaciones y sistemas de soporte. Usado en atención al cliente, recursos humanos y más.
+- **Procesamiento de imágenes médicas**
+  - **IBM Watson Health**: servicios de IA dedicados al análisis de imágenes médicas y datos clínicos, ideal para radiología y diagnóstico asistido.
