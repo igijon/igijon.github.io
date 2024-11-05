@@ -39,3 +39,10 @@ Como usos tenemos: generación automática de código, asistencia en la depuraci
 
 Está disponible a través de la **API de OpenAI** y GitHub Copilot es una de sus implementaciones más conocidas.
 
+## DALL-E
+Es un modelo de generación de imágenes que convierte descripciones textuales en imágenes detalladas. DALL-E permite a los usuarios crear imágenes a partir de prompts detallados, haciendo posible el diseño visual sin necesidad de habilidades gráficas avanzadas.
+
+Como usos tenemos: generación de contenido visual, diseño de productos, marketing y publicidad.
+
+Está disponible a través de **DALL-E Playground** y la **API de OpenAI** para la integración en proyectos.
+
