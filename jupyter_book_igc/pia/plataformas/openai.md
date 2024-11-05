@@ -67,7 +67,7 @@ Es la API central de OpenAI, que permite a los desarrolladores acceder a los mod
 
 Como uso tenemos: integración de capacidades de IA en productos y servicios personalizados desde chatbots y asistentes virtuales hasta herramientas de análisis de texto y generación de conteniodo.
 
-Está disponible en la web de OpenAI, ofrece documentación detallada y un panel para gestionar el uso de los modelos.
+Está disponible en la **web de OpenAI**, ofrece documentación detallada y un panel para gestionar el uso de los modelos.
 
 ### Ejemplo de código para hacer una llamada a la API
 ```py
@@ -106,11 +106,18 @@ Es una interfaz interactiva en la que los usuarios pueden experimentar con los m
 
 Como uso principal podemos experimentar con prompts para ajustarlos antes de usarlos en aplicaciones, prototipos rápidos y exploración de capacidades del modelo.
 
-Está disponible a través de la web en el sitio de OpenAI.
+Está disponible a través de la web en el **sitio de OpenAI**.
 
 ## OpenAI Baselines
 Es una colección de implementaciones de referencia de algoritmos de aprendizaje por refuerzo en Python. Está diseñado para ayudar a los investigadores y desarrolladores a implementar y comparar algoritmos estándar de aprendizaje por refuerzo.
 
 Como usos tenemos: benchmarking de algoritmos de aprendizaje por refuerzo, investigación y mejoras en RL, proyectos experimentales en RL.
 
-Está disponible en GitHub como proyecto open-source.
+Está disponible en GitHub como proyecto **open-source**.
+
+## OpenAI API Fine-Tuning
+Permite a los usuarios ajustar los modelos de OpenAI (como GPT-3) para casos de uso específicos mediante el ajuste fino o "fine tuning" de los modelos. Esto permite entrenar al modelo en datos específicos para mejorar su desempeño en tareas muy particulares.
+
+Como uso destacamos la personalización de aplicaciones específicas como asistentes especializados y generación de respuestas para dominios específicos como medicina, derecho y finanzas.
+
+Se puede configurar a través de la **API de OpenAI**, con opciones para cargar datasets personalizados
