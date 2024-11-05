@@ -54,3 +54,10 @@ Como uso tenemos: transcripción de audio a texto, subtitulación automática, t
 
 Está disponible a través de la **API de OpenAI** y también disponible como modelo open-source para implementaciones personalizadas.
 
+## CLIP (Contrastive Language-Image Pretraining)
+Es un modelo que entiende relaciones entre texto e imágenes. CLIP puede clasificar imágenes basándose en descripciones textuales y buscar correspondencias entre texto e imágenes sin entrenamiento específico para cada categoría.
+
+Como uso tenemos: búsqueda visual, clasificación de imágenes, etiquetado automático de contenido visual, sistemas de recomendación basados en imágenes.
+
+Está disponible en Github como código open-source, se usa en combinación con DALL-E para mejorar la calidad y relevancia de las imágenes generadas.
+
