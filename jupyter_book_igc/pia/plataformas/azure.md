@@ -21,3 +21,18 @@ La interfaz permite trabajar con cuadernos Jupyter Notebook, utilizar librerías
 
 ![alt text](image-38.png)
 
+## Otras herramientas
+- **Procesamiento de lenguaje natural**
+  - **Azure Text Analytics**: ofrece análisis de sentimiento, extracción de entidades y detección de idioma. Ideal para analizar retroalimentación de clientes y mejorar la experiencia del usuario.
+- **Visión por computadora**
+  - **Azure Computer Vision**: proporciona OCR, análisis de imágenes y detección de objetos y escenas, utilizada en aplicaciones de seguridad, control de calidad y comercio.
+- **Reconocimiento de voz y conversión de texto a voz**
+  - **Azure Speech Services**: conversión de texto a voz y reconocimiento de voz con capacidades multilingües, usado en asistentes virtuales y aplicaciones de accesibilidad.
+- **Traducción automática**
+  - **Microsoft Translator**: API de traducción automática integrada en otras aplicaciones de Microsoft, ideal para aplicaciones multilingües y comercio global.
+- **Automatización y bots conversacionales**
+  - **Azure Bot Services**: plataforma para construir bots con procesamiento del lenguaje natural, usado en atención al cliente y soporte automatizado.
+- **Analítica de Vídeo**:
+  - **Azure Video Indexer**: análisis de vídeo con capacidades de detección de emociones, reconocimiento facial y subtitulado automático.
+- **Servicios de salud y análisis biomédico**
+  - **Azure Health Bot**: herramienta para el sector salud que permite crear bots con fines de diagnóstico y recomendaciones médicas.
