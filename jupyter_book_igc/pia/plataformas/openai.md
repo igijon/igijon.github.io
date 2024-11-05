@@ -31,4 +31,11 @@ Como usos tenemos: servicios de asistencia al cliente, generación de contenido,
 
 Está disponible a través de la **API de OpenAI** y **Playground** (para pruebas de texto e iteraciones sin necesidad de programar)
 
+## Codex
+Un modelo derivado de GPT-3 especializado en la generación de código. Codex puede entender y escribir en múltiples lenguajes de programación: Python, JS, Ruby...
+Es el modelo que potencia **GitHub Copilot**, permitiendo el autocompletado de código y generar funciones completas basadas en descripciones en lenguaje natural.
+
+Como usos tenemos: generación automática de código, asistencia en la depuración, aprendizaje de programación y documentación automática.
+
+Está disponible a través de la **API de OpenAI** y GitHub Copilot es una de sus implementaciones más conocidas.
 
