@@ -13,3 +13,11 @@ Permite utilizar, en un proyecto, funcionalidades de inteligencia artificial, si
 
 ![alt text](image-36.png)
 
+## AzureML
+Azure Machine Learning es el servicio para crear y entrenar modelos de cero, con la facilidad de conectarlos al resto de servicios necesarios en un proyecto de forma eficiente e integrada. Cuenta con un escritorio específico de trabajo, denominado Studio, en el que se puede iniciar y gestionar los modelos, sus implementaciones, métricas e historiales de ejecución.
+![alt text](image-37.png)
+
+La interfaz permite trabajar con cuadernos Jupyter Notebook, utilizar librerías para aprendizaje automático y la flexibilidad de configurar los hiperparámetros en el código. Cuenta con una herramienta de depurado y permite la integración con el entorno de programación Visual Studio Code, con lo que se integra con relativa facilidad en proyectos que ya están desplegados en la nube.
+
+![alt text](image-38.png)
+
