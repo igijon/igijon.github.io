@@ -22,3 +22,13 @@ Ejemplos:
 
 ![alt text](image-40.png)
 
+## GPT (Generative Pre-trained Transformer)
+Es la serie de modelos de lenguaje de OpenAI que incluye versiones como **GPT-3 y GPT-4** y de manera más avanzada, modelos que incorporan capacidades de razonamiento y comprensión complejas.
+
+Estos modelos están diseñados para entender y generar texto en lenguaje natural, lo que permite aplicaciones en chatbots, generación de contenido, asistencia en programación, traducción y más.
+
+Como usos tenemos: servicios de asistencia al cliente, generación de contenido, herramientas de redacción...
+
+Está disponible a través de la **API de OpenAI** y **Playground** (para pruebas de texto e iteraciones sin necesidad de programar)
+
+
