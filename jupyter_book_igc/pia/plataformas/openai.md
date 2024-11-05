@@ -100,3 +100,11 @@ print(response.choices[0].text.strip())
 ```
 ![alt text](image-41.png)
 
+## OpenAI Playground
+
+Es una interfaz interactiva en la que los usuarios pueden experimentar con los modelos de lenguaje de OpenAI. En Playground se pueden escribir y ajustar prompts y parámetros sin tener que programar.
+
+Como uso principal podemos experimentar con prompts para ajustarlos antes de usarlos en aplicaciones, prototipos rápidos y exploración de capacidades del modelo.
+
+Está disponible a través de la web en el sitio de OpenAI.
+
