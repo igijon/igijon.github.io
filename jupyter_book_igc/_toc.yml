@@ -78,6 +78,7 @@ parts:
       - file: pia/plataformas/aws
       - file: pia/plataformas/ibm
       - file: pia/plataformas/azure
+      - file: pia/plataformas/openai
       - file: pia/plataformas/referencias
   - caption: Referencias
     chapters:
