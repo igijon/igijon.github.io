@@ -108,3 +108,9 @@ Como uso principal podemos experimentar con prompts para ajustarlos antes de usa
 
 Está disponible a través de la web en el sitio de OpenAI.
 
+## OpenAI Baselines
+Es una colección de implementaciones de referencia de algoritmos de aprendizaje por refuerzo en Python. Está diseñado para ayudar a los investigadores y desarrolladores a implementar y comparar algoritmos estándar de aprendizaje por refuerzo.
+
+Como usos tenemos: benchmarking de algoritmos de aprendizaje por refuerzo, investigación y mejoras en RL, proyectos experimentales en RL.
+
+Está disponible en GitHub como proyecto open-source.
