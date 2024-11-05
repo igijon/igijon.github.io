@@ -46,3 +46,11 @@ Como usos tenemos: generación de contenido visual, diseño de productos, market
 
 Está disponible a través de **DALL-E Playground** y la **API de OpenAI** para la integración en proyectos.
 
+## Whisper
+Es un sistema de reconocimiento de voz de alta precisión capaz de transcribir y traducir el habla en múltiples idiomas.
+Se destaca su utilidad en situaciones de mucho ruido y en transcripción de dialectos, gracias a su capacidad de comprender varios acentos y entornos.
+
+Como uso tenemos: transcripción de audio a texto, subtitulación automática, traducción de audio, asistencia para accesibilidad.
+
+Está disponible a través de la **API de OpenAI** y también disponible como modelo open-source para implementaciones personalizadas.
+
