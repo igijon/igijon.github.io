@@ -22,45 +22,6 @@ Ejemplos:
 
 ![alt text](image-40.png)
 
-## OpenAI API
-
-Es la API central de OpenAI, que permite a los desarrolladores acceder a los modelos de lenguaje de OpenAI, Codex, Whisper y otros desde sus aplicaciones y servicios.
-
-Como uso tenemos: integración de capacidades de IA en productos y servicios personalizados desde chatbots y asistentes virtuales hasta herramientas de análisis de texto y generación de conteniodo.
-
-Está disponible en la web de OpenAI, ofrece documentación detallada y un panel para gestionar el uso de los modelos.
-
-### Ejemplo de código para hacer una llamada a la API
-```py
-import openai
-
-# Configura tu clave API
-openai.api_key = "TU_CLAVE_API"
-
-# Realiza una solicitud a GPT-4 con un ejemplo de prompt
-response = openai.Completion.create(
-  model="gpt-4",
-  prompt="¿Qué es el aprendizaje profundo y cómo se diferencia del aprendizaje automático?",
-  max_tokens=100,
-  temperature=0.7
-)
-
-# Imprime la respuesta generada por el modelo
-print(response.choices[0].text.strip())
-```
-
-Un ejemplo de resultado para un prompt concreto sería:
-```py
-response = openai.Completion.create(
-  model="gpt-4",
-  prompt="Describe los beneficios de la energía solar.",
-  max_tokens=100,
-  temperature=0.5
-)
-print(response.choices[0].text.strip())
-```
-![alt text](image-41.png)
-
 ## GPT (Generative Pre-trained Transformer)
 Es la serie de modelos de lenguaje de OpenAI que incluye versiones como **GPT-3 y GPT-4** y de manera más avanzada, modelos que incorporan capacidades de razonamiento y comprensión complejas.
 
@@ -100,4 +61,42 @@ Como uso tenemos: búsqueda visual, clasificación de imágenes, etiquetado auto
 
 Está disponible en Github como código open-source, se usa en combinación con DALL-E para mejorar la calidad y relevancia de las imágenes generadas.
 
+## OpenAI API
+
+Es la API central de OpenAI, que permite a los desarrolladores acceder a los modelos de lenguaje de OpenAI, Codex, Whisper y otros desde sus aplicaciones y servicios.
+
+Como uso tenemos: integración de capacidades de IA en productos y servicios personalizados desde chatbots y asistentes virtuales hasta herramientas de análisis de texto y generación de conteniodo.
+
+Está disponible en la web de OpenAI, ofrece documentación detallada y un panel para gestionar el uso de los modelos.
+
+### Ejemplo de código para hacer una llamada a la API
+```py
+import openai
+
+# Configura tu clave API
+openai.api_key = "TU_CLAVE_API"
+
+# Realiza una solicitud a GPT-4 con un ejemplo de prompt
+response = openai.Completion.create(
+  model="gpt-4",
+  prompt="¿Qué es el aprendizaje profundo y cómo se diferencia del aprendizaje automático?",
+  max_tokens=100,
+  temperature=0.7
+)
+
+# Imprime la respuesta generada por el modelo
+print(response.choices[0].text.strip())
+```
+
+Un ejemplo de resultado para un prompt concreto sería:
+```py
+response = openai.Completion.create(
+  model="gpt-4",
+  prompt="Describe los beneficios de la energía solar.",
+  max_tokens=100,
+  temperature=0.5
+)
+print(response.choices[0].text.strip())
+```
+![alt text](image-41.png)
 
