@@ -79,6 +79,8 @@ parts:
       - file: pia/plataformas/ibm
       - file: pia/plataformas/azure
       - file: pia/plataformas/openai
+        sections:
+        - file: pia/plataformas/offline/anaconda
       - file: pia/plataformas/referencias
   - caption: Referencias
     chapters:
