@@ -120,4 +120,10 @@ Permite a los usuarios ajustar los modelos de OpenAI (como GPT-3) para casos de 
 
 Como uso destacamos la personalización de aplicaciones específicas como asistentes especializados y generación de respuestas para dominios específicos como medicina, derecho y finanzas.
 
-Se puede configurar a través de la **API de OpenAI**, con opciones para cargar datasets personalizados
+Se puede configurar a través de la **API de OpenAI**, con opciones para cargar datasets personalizados.
+
+## ¿Cómo empezar con estas herramientas?
+- Crear una cuenta en **OpenAI** y acceder al **API Dashboard** para obtener tu clave API y consultar la documentación de cada herramienta.
+- Usa **OpenAI Playground** para experimentar sin proramar, ajustando promts y parámetros en modelos del lenguaje como GPT-4.
+- **Integra la API de OpenAI** en tus aplicaciones con la ayuda de la documentación para hacer solicitudes a los modelos, generar respuestas o generar contenido visual con DALL-E.
+
