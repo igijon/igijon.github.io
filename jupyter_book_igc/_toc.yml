@@ -80,9 +80,9 @@ parts:
       - file: pia/plataformas/azure
       - file: pia/plataformas/openai
       - file: pia/plataformas/referencias
-    - file: pia/entornos/entornos
-      sections:
-      - file: pia/entornos/anaconda
+      - file: pia/entornos/entornos
+        sections:
+        - file: pia/entornos/anaconda
   - caption: Referencias
     chapters:
     - file: bibliografia

@@ -50,3 +50,14 @@ Si lo instalamos y ejecutamos desde **Anaconda**:
 Todo lo que estamos instalando, incluído Jupyter Notebook, se está instalando en el entorno virtual que tenemos activo.
 ```
 
+Si abrimos un **notebook** nuevo:
+![alt text](image-8.png)
+
+Una vez creado, tenemos la siguiente interfaz:
+![alt text](image-9.png)
+
+Permite convivir tanto código como texto (**markdown**)
+
+
+
+
