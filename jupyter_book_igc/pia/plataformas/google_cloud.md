@@ -58,7 +58,7 @@ Este API ofrece:
 - **Extracción de texto de una imagen**
 - **Detección de elementos no seguros en imagen**: violencia, sexo, racismo...
 
-En el caso de reconocimiento facial, el modelo detecta los elementos del rostro y según sus posiciones relativas ha sido entrenado para etiquetar respecto a las principales emoviones. También detecta la orientación del rostro en la imagen.
+En el caso de reconocimiento facial, el modelo detecta los elementos del rostro y según sus posiciones relativas ha sido entrenado para etiquetar respecto a las principales emociones. También detecta la orientación del rostro en la imagen.
 ![alt text](image-11.png)
 
 También se pueden reconocer objetos en una imagen a través de la detección de bordes y formas, ya que el modelo ha sido entrenado con una gran cantidad de imágenes etiquetadas que incluían objetos de todo tipo. 
@@ -93,8 +93,8 @@ Ejemplo: si el usuario desea reservar mesa en tu restaurante, el servicio puede 
 
 ![alt text](image-15.png)
 
-Dialogflow acepta entradas de texto o audio, por ejemplo a través de Google Assistant, o desde una llamada de teléfono. También puede responder a través de texto o de vozsintética.
-Esta herramienta es parte de la oferta de **Conversational AI** dentro de Google Cloud, que profee de varios servicios que complementan **Dialogflow** para crear una aplicación de negocio.
+Dialogflow acepta entradas de texto o audio, por ejemplo a través de Google Assistant, o desde una llamada de teléfono. También puede responder a través de texto o de voz sintética.
+Esta herramienta es parte de la oferta de **Conversational AI** dentro de Google Cloud, que se compone de varios servicios que complementan **Dialogflow** para crear una aplicación de negocio.
 
 
 ## Otras herramientas
@@ -107,5 +107,5 @@ Esta herramienta es parte de la oferta de **Conversational AI** dentro de Google
 - **Análisis y predicción de datos**:
   - **AutoML**: herramienta para entrenar modelos de aprendizaje automáticos personalizados sin necesidad de conocimientos avanzados en IA.
 - **Analítica de vídeo**:
-  - **Vídelo Inteliggence API**: análisis de vídeo para detección de objetos, escenas y contenido inapropiado. Muy útil para marketing y análisis de contenido visual.
+  - **Vídelo Inteligence API**: análisis de vídeo para detección de objetos, escenas y contenido inapropiado. Muy útil para marketing y análisis de contenido visual.
   

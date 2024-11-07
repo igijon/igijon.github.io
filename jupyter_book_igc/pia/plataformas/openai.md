@@ -65,7 +65,7 @@ Está disponible en Github como código open-source, se usa en combinación con 
 
 Es la API central de OpenAI, que permite a los desarrolladores acceder a los modelos de lenguaje de OpenAI, Codex, Whisper y otros desde sus aplicaciones y servicios.
 
-Como uso tenemos: integración de capacidades de IA en productos y servicios personalizados desde chatbots y asistentes virtuales hasta herramientas de análisis de texto y generación de conteniodo.
+Como uso tenemos: integración de capacidades de IA en productos y servicios personalizados desde chatbots y asistentes virtuales hasta herramientas de análisis de texto y generación de contenido.
 
 Está disponible en la **web de OpenAI**, ofrece documentación detallada y un panel para gestionar el uso de los modelos.
 
@@ -98,7 +98,9 @@ response = openai.Completion.create(
 )
 print(response.choices[0].text.strip())
 ```
+
 ![alt text](image-41.png)
+
 
 ## OpenAI Playground
 
@@ -124,6 +126,6 @@ Se puede configurar a través de la **API de OpenAI**, con opciones para cargar 
 
 ## ¿Cómo empezar con estas herramientas?
 - Crear una cuenta en **OpenAI** y acceder al **API Dashboard** para obtener tu clave API y consultar la documentación de cada herramienta.
-- Usa **OpenAI Playground** para experimentar sin proramar, ajustando promts y parámetros en modelos del lenguaje como GPT-4.
+- Usa **OpenAI Playground** para experimentar sin programar, ajustando promts y parámetros en modelos del lenguaje como GPT-4.
 - **Integra la API de OpenAI** en tus aplicaciones con la ayuda de la documentación para hacer solicitudes a los modelos, generar respuestas o generar contenido visual con DALL-E.
 
