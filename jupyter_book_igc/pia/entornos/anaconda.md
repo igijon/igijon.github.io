@@ -58,6 +58,10 @@ Una vez creado, tenemos la siguiente interfaz:
 
 Permite convivir tanto código como texto (**markdown**)
 
+## Ejemplo y ejercicios propuestos
 
+```{warning}
+https://github.com/igijon/jupyter_basico
+```
 
 
