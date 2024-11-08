@@ -1,6 +1,6 @@
 # Referencias
 
-Apuntes personales, experiencia en el sector y consultas entre otros en el siguiente material: {cite}`I4` y {cite}`I3`
+{cite}`IGC`, {cite}`I4` y {cite}`I3`
 
 ```{bibliography}
 :filter: docname in docnames

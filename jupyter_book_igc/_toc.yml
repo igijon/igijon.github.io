@@ -83,6 +83,8 @@ parts:
       - file: pia/entornos/entornos
         sections:
         - file: pia/entornos/anaconda
+        - file: pia/entornos/colab
+        - file: pia/entornos/referencias
   - caption: Referencias
     chapters:
     - file: bibliografia
