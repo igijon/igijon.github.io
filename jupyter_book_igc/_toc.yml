@@ -85,7 +85,7 @@ parts:
         - file: pia/entornos/anaconda
         - file: pia/entornos/colab
         - file: pia/entornos/referencias
-    - file: pia/ml/prueba
+    - file: pia/ml/librerias/prueba
   - caption: Referencias
     chapters:
     - file: bibliografia
