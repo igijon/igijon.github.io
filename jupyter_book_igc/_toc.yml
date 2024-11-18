@@ -86,6 +86,8 @@ parts:
         - file: pia/entornos/colab
         - file: pia/entornos/referencias
     - file: pia/ml/librerias/librerias
+      sections:
+      - file: pia/ml/librerias/numpy
   - caption: Referencias
     chapters:
     - file: bibliografia
