@@ -90,9 +90,11 @@ parts:
       - file: pia/ml/librerias/numpy
       - file: pia/ml/librerias/pandas
       - file: pia/ml/librerias/matplotlib
+      - file: pia/ml/librerias/referencias
     - file: pia/ml/ml/ml
       sections:
       - file: pia/ml/ml/supervisado
+      - file: pia/ml/ml/referencias
   - caption: Referencias
     chapters:
     - file: bibliografia
