@@ -94,6 +94,9 @@ parts:
     - file: pia/ml/ml/ml
       sections:
       - file: pia/ml/ml/supervisado
+      - file: pia/ml/ml/no_supervisado
+      - file: pia/ml/ml/online_batch
+      - file: pia/ml/ml/instancias_modelos
       - file: pia/ml/ml/referencias
   - caption: Referencias
     chapters:
