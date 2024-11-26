@@ -97,10 +97,13 @@ parts:
       - file: pia/ml/ml/no_supervisado
       - file: pia/ml/ml/online_batch
       - file: pia/ml/ml/instancias_modelos
-    - file: pia/ml/regresion_lineal/regresion_lineal
       - file: pia/ml/ml/referencias
+    - file: pia/ml/regresion_lineal/regresion_lineal
       sections:
-        - file: pia/ml/regresion_lineal/funcion_hipotesis
+      - file: pia/ml/regresion_lineal/funcion_hipotesis
+      - file: pia/ml/regresion_lineal/modelo
+      - file: pia/ml/regresion_lineal/referencias
+      
   - caption: Referencias
     chapters:
     - file: bibliografia
