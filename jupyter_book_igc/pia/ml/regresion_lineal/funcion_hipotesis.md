@@ -1,0 +1,2 @@
+# Función hipótesis
+

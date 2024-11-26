@@ -99,6 +99,8 @@ parts:
       - file: pia/ml/ml/instancias_modelos
     - file: pia/ml/regresion_lineal/regresion_lineal
       - file: pia/ml/ml/referencias
+      sections:
+        - file: pia/ml/regresion_lineal/funcion_hipotesis
   - caption: Referencias
     chapters:
     - file: bibliografia
