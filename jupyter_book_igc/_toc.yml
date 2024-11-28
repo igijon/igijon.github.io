@@ -104,6 +104,7 @@ parts:
       - file: pia/ml/regresion_lineal/modelo
       - file: pia/ml/regresion_lineal/funcion_coste
       - file: pia/ml/regresion_lineal/funcion_optimizacion
+      - file: pia/ml/regresion_lineal/ejemplo
       - file: pia/ml/regresion_lineal/referencias
       
   - caption: Referencias
