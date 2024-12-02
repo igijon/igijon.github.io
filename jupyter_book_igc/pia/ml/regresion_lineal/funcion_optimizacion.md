@@ -15,3 +15,8 @@ El algoritmo de **gradient descent** hace lo siguiente:
 ![alt text](image-8.png)
 
 Cuando el valor de theta0 y theta1 no varíen en varias iteraciones, ya hemos llegado al mínimo global.
+
+![alt text](image-11.png)
+
+Haremos ejemplos con una o dos variables porque si no se complica mucho a nivel gráfico.
+
