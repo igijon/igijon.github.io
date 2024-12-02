@@ -106,6 +106,7 @@ parts:
       - file: pia/ml/regresion_lineal/funcion_optimizacion
       - file: pia/ml/regresion_lineal/ejemplo
       - file: pia/ml/regresion_lineal/referencias
+    - file: pia/ml/regresion_logistica/regresion_logistica
       
   - caption: Referencias
     chapters:
