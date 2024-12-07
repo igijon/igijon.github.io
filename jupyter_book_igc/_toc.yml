@@ -50,10 +50,8 @@ parts:
       sections:
       - file: dwec/com_asincrona/referencias
     - file: dwec/angular/angular
-      sections:
-      - file: dwec/angular/instalaciones/instalaciones
-      - file: dwec/angular/introduccion/introduccion
-      - file: dwec/angular/typescript/typescript
+    
+      
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
