@@ -53,6 +53,7 @@ parts:
       sections:
       - file: dwec/angular/instalaciones/instalaciones
       - file: dwec/angular/introduccion/introduccion
+      - file: dwec/angular/typescript/typescript
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
