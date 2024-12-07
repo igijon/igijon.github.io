@@ -49,6 +49,10 @@ parts:
     - file: dwec/com_asincrona/comunicacion_asincrona
       sections:
       - file: dwec/com_asincrona/referencias
+    - file: dwec/angular/angular
+      sections:
+      - file: dwec/angular/instalaciones/instalaciones
+      - file: dwec/angular/introduccion/introduccion
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
@@ -107,7 +111,8 @@ parts:
       - file: pia/ml/regresion_lineal/ejemplo
       - file: pia/ml/regresion_lineal/referencias
     - file: pia/ml/regresion_logistica/regresion_logistica
-      
+      sections:
+      - file: pia/ml/regresion_logistica/funcion_hipotesis
   - caption: Referencias
     chapters:
     - file: bibliografia
