@@ -35,3 +35,7 @@ npm run dev
 ```{note}
 https://github.com/igijon/typescript-bases-vite
 ```
+
+Tenemos un fichero `tsconfig.json` que permite indicar cómo se va a comportar TS en nuestro proyecto. Por defecto estará en modo estricto, lo que hace que tengamos que indicar los tipos, por ejemplo, en los argumentos de las funciones...
+
+![alt text](image-4.png)
