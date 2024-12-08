@@ -49,7 +49,7 @@ parts:
     - file: dwec/com_asincrona/comunicacion_asincrona
       sections:
       - file: dwec/com_asincrona/referencias
-    - file: dwec/angular/prueba
+    - file: dwec/angular/angular
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
