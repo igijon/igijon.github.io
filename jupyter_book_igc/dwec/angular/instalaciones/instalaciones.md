@@ -64,3 +64,5 @@ Iconos para todas las extensiones de archivos
 ### JSON Viewer Pro
 ![alt text](image-10.png)
 
+### Angular DevTools
+![alt text](image-12.png)
