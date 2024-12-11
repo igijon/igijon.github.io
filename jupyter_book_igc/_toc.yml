@@ -55,6 +55,7 @@ parts:
       - file: dwec/angular/introduccion/introduccion
       - file: dwec/angular/typescript/typescript
       - file: dwec/angular/estructura_proyecto/iniciacion
+      - file: dwec/angular/estructura_proyecto/primer_proyecto
   - caption: Programación en IA
     chapters:
     - file: pia/introduccion/introduccion_ia
