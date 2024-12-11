@@ -118,6 +118,7 @@ parts:
       - file: pia/ml/regresion_logistica/funcion_hipotesis
       - file: pia/ml/regresion_logistica/construccion_modelo
       - file: pia/ml/regresion_logistica/funcion_coste
+      - file: pia/ml/regresion_logistica/funcion_optimizacion
   - caption: Referencias
     chapters:
     - file: bibliografia
