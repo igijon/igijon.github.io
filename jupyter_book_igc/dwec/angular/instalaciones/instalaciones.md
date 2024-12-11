@@ -11,7 +11,7 @@ Para su instalación, miramos siempre la documentación oficial por si algo hubi
 Lo ejecutamos como administrador:
 
 ```bash
-npm intall -g @angular/cli
+npm install -g @angular/cli
 ng version
 ```
 ![alt text](image.png)
