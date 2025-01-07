@@ -120,6 +120,9 @@ parts:
       - file: pia/ml/regresion_logistica/funcion_coste
       - file: pia/ml/regresion_logistica/funcion_optimizacion
       - file: pia/ml/regresion_logistica/ejemplo
+    - file: pia/ml/proy_ml/proyecto_ml
+      sections:
+      - file: pia/ml/proy_ml/conjunto_datos
   - caption: Referencias
     chapters:
     - file: bibliografia
