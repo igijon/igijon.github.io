@@ -44,6 +44,6 @@ En nuestro conjunto de datos:
 - Debemos tener una cantidad suficiente de datos
 - Debemos utilizar un conjunto de datos representativo del problema a resolver.
 - Los datos deben ser de calidad.
-- Debe seleccionarse un conjunto de características adecuado, minimizando características irrelevantes.
+- Debe seleccionarse un conjunto de características adecuado, minimizando características irrelevantes (relacionado con el coste computacional).
 ```
 
