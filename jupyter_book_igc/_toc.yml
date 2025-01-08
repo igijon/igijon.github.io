@@ -123,6 +123,7 @@ parts:
     - file: pia/ml/proy_ml/proyecto_ml
       sections:
       - file: pia/ml/proy_ml/conjunto_datos
+      - file: pia/ml/proy_ml/overfitting_underfitting
   - caption: Referencias
     chapters:
     - file: bibliografia

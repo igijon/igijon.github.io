@@ -46,4 +46,6 @@ En nuestro conjunto de datos:
 - Los datos deben ser de calidad.
 - Debe seleccionarse un conjunto de características adecuado, minimizando características irrelevantes (relacionado con el coste computacional).
 ```
-
+```{note}
+https://github.com/igijon/ML_Proyecto_Bases
+```
