@@ -65,3 +65,8 @@ En resumen:
 - Se calcula la función hipótesis con el subconjunto de entrenamiento
 - Se calcula el número de características óptimo mediante la evaluación de las hipótesis anteriores con el subconjunto de validación (elección del modelo)
 - Se evalúa la función de hipótesis mediante el subconjunto de pruebas calculando su error, para ver si generaliza bien.
+
+```{note}
+Particionado de los datos:
+https://github.com/igijon/ML_Proyecto_Bases
+```
