@@ -70,3 +70,86 @@ En resumen:
 Particionado de los datos:
 https://github.com/igijon/ML_Proyecto_Bases
 ```
+## Preparación del conjunto de datos.
+
+Los algoritmos de Machine Learning, en su gran mayoría, reciben valores numéricos. Los valores de las características y de la salida Y no deben tener valores nulos o perdidos.
+
+Tendremos que transformar las variables categóricas por ejemplo, en numéricas. Tendremos que deshacernos de valores perdidos.
+
+### Valores perdidos
+
+El conjunto de datos puede contener ejemplos que no dispongan de un valor para una determinada característica (feature)
+
+![alt text](image-5.png)
+
+Los algoritmos de ML no pueden recibir valores perdidos. 
+
+Soluciones:
+- Eliminar el elemento del conjunto de datos.
+- Eliminar la característica: si tenemos muchos datos nulos de una feature, podría ser una solución.
+- Asignarle un valor determinado (por ejemplo, la media)
+
+### Características categóricas
+
+Como por ejemplo **paymentMethod**.
+Como la mayoría de algoritmos requieren de valores numéricos para funcionar, tenemos que hacer una transformación.
+
+Lo más común es hacer una codificación o **encoding**. 
+
+#### One-Hot Encoding
+
+Uno de los más conocidos es **One-Hot Encoding**.
+
+```{note}
+One-Hot Encoding utiliza un array de bits con tantos bits como valores diferentes tiene la característica categórica.
+```
+
+![alt text](image-6.png)
+
+#### Dummy Coding
+
+En este caso se reduce el grado de libertad, usando k-1 nuevas características. Siendo k el número de posibles valores distintos para la característica categórica.
+
+![alt text](image-7.png)
+
+### Escalado y estandarización de características
+
+Puede que para algunas características tengamos valores con distintas escalas o valores muy dispares. Tenemos que buscar un algoritmo para homogeneizar los valores. Cuando escalo los valores, debo mantener la distribución del conjunto original.
+
+Existen dos mecanismos principales para igualar la escala de los valores: **min-max scaling (normalización)** y **estandarización**.
+
+#### Min-Max scaling o normalización
+
+Escalamos los valores en el rango 0 y 1.
+Se calcula restando el valor mínimo y dividiendo por el máximo menos el mínimo.
+
+![alt text](image-9.png)
+
+![alt text](image-8.png)
+
+#### Estandarización
+
+Se refiere a cambiar la distribución de cada característica para que tenga una media de cero y una desviación estándar de 1 (ya lo veremos más adelante).
+
+Se calcula restando el valor medio y dividiendo el resultado por la desviación estándar.
+
+```{note}
+La desviación estándar es una medida de dispersión que nos indica cómo de dispersos están los datos con respecto a la media. A mayor desviación estándar, mayor dispersión de dtaos.
+![alt text](image-10.png)
+```
+
+![alt text](image-11.png)
+
+### Desequilibrio de los datos
+
+En muchos casos de uso relacionados con la ciberseguridad, sucederá que dispondremos de un conjunto de datos con un 0.1% de ejemplos positivos y un 99.9% de ejemplos negativos.
+
+Ante esto, podemos:
+    - Repetir los ejemplos de casos positivos en el conjutno de datos para balancear la proporción (**oversample**)
+    - Seleccionar un subconjunto de la clase mayoritaria para balancear la proporción (**undersample**)
+    - Modificar la función de error para que cada ejemplo de la clase minoritaria tenga más influencia en el modelo (esto se suele hacer menos).
+
+```{note}
+Preparación del conjunto de datos:
+https://github.com/igijon/ML_Proyecto_Bases
+```
