@@ -152,4 +152,6 @@ Ante esto, podemos:
 ```{note}
 Preparación del conjunto de datos:
 https://github.com/igijon/ML_Proyecto_Bases
+Creación de Transformadores y Pipelines personalizados:
+https://github.com/igijon/ML_Proyecto_Bases
 ```
