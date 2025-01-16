@@ -145,9 +145,10 @@ La desviación estándar es una medida de dispersión que nos indica cómo de di
 En muchos casos de uso relacionados con la ciberseguridad, sucederá que dispondremos de un conjunto de datos con un 0.1% de ejemplos positivos y un 99.9% de ejemplos negativos.
 
 Ante esto, podemos:
-    - Repetir los ejemplos de casos positivos en el conjutno de datos para balancear la proporción (**oversample**)
-    - Seleccionar un subconjunto de la clase mayoritaria para balancear la proporción (**undersample**)
-    - Modificar la función de error para que cada ejemplo de la clase minoritaria tenga más influencia en el modelo (esto se suele hacer menos).
+
+  - Repetir los ejemplos de casos positivos en el conjutno de datos para balancear la proporción (**oversample**)
+  - Seleccionar un subconjunto de la clase mayoritaria para balancear la proporción (**undersample**)
+  - Modificar la función de error para que cada ejemplo de la clase minoritaria tenga más influencia en el modelo (esto se suele hacer menos).
 
 ```{note}
 Preparación del conjunto de datos:
