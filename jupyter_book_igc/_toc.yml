@@ -128,6 +128,8 @@ parts:
     - file: pia/ml/svm/svm
       sections:
       - file: pia/ml/svm/hardmargin
+      - file: pia/ml/svm/softmargin
+      - file: pia/ml/svm/kernelsrp
     chapters:
     - file: bibliografia
 #- file: notebooks
