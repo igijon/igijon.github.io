@@ -130,6 +130,8 @@ parts:
       - file: pia/ml/svm/hardmargin
       - file: pia/ml/svm/softmargin
       - file: pia/ml/svm/kernelsrp
+      - file: pia/ml/svm/kernelsgaussian
+  - caption: Referencias
     chapters:
     - file: bibliografia
 #- file: notebooks
