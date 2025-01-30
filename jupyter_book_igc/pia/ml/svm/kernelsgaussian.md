@@ -68,3 +68,9 @@ Y una vez computadas todas las características obtendríamos la función hipót
 
 ![alt text](image-17.png)
 
+
+```{note}
+Repositorio caso práctico:
+https://github.com/igijon/ML_svm
+
+```
