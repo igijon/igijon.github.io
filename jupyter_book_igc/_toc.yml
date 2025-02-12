@@ -135,6 +135,9 @@ parts:
       sections:
       - file: pia/ml/randomforest/arboldecision
       - file: pia/ml/randomforest/ad_gini
+      - file: pia/ml/randomforest/ad_entrenamiento
+      - file: pia/ml/randomforest/ad_clasificacion_coste
+      - file: pia/ml/randomforest/ad_limitaciones
   - caption: Referencias
     chapters:
     - file: bibliografia
