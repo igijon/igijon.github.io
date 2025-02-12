@@ -131,7 +131,10 @@ parts:
       - file: pia/ml/svm/softmargin
       - file: pia/ml/svm/kernelsrp
       - file: pia/ml/svm/kernelsgaussian
-    
+    - file: pia/ml/randomforest/intro
+      sections:
+      - file: pia/ml/randomforest/arboldecision
+      - file: pia/ml/randomforest/ad_gini
   - caption: Referencias
     chapters:
     - file: bibliografia
