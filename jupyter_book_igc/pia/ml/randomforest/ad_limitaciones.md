@@ -22,3 +22,11 @@ En el caso de árboles de decisión, buscaremos óptimos locales en los nodos. S
   ![alt text](image-9.png)
    
    Si hubiésemos por ejemplo limitado los niveles del árbol a 2 nunca hubiese llegado a ese punto. Podríamos jugar con los distintos hiperparámetros.
+
+   ```{note}
+   Instalación de **Graphviz** para mostrar todos los elementos de un árbol.
+
+   https://graphviz.org/download/
+   ```
+
+   
