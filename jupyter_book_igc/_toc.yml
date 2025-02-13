@@ -138,6 +138,7 @@ parts:
       - file: pia/ml/randomforest/ad_entrenamiento
       - file: pia/ml/randomforest/ad_clasificacion_coste
       - file: pia/ml/randomforest/ad_limitaciones
+      - file: pia/ml/randomforest/rf_intro
   - caption: Referencias
     chapters:
     - file: bibliografia

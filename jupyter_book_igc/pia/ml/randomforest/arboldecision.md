@@ -15,7 +15,7 @@ Problema de clasificación multiclase con tres clases.
 ![alt text](image.png)
 
 Tentremos un total de 40 ejemplos: **samples = 40**.
-**values = [12, 12, 16] **
+**values = [12, 12, 16]**
 12 ejemplos de la clase 0, 12 de la clase 1 y 16 de la clase 2
 
 Queremos construir un límite de decisión que separe las tres clases.
@@ -38,8 +38,7 @@ Cuando la variable **x2 <=4**, podremos dividir en dos clases.
 Esto que hemos construido con cajas a la izquierda es un **árbol de decisión.**
 Este árbol, no es más que un conjunto de reglas **if-then else** que van a determinar según si se cumplen los valores de corte si encasillamos en un subconjunto o en otro.
 
-**Si entra un ejemplo nuevo, para el cuál queremos predecir el valor de salida. Por ejemplo (x1=4, x2=3) pertenecería a la clase y=2
-**
+**Si entra un ejemplo nuevo, para el cuál queremos predecir el valor de salida. Por ejemplo (x1=4, x2=3) pertenecería a la clase y=2**
 
 Va evaluando nodo por nodo del árbol.
 
