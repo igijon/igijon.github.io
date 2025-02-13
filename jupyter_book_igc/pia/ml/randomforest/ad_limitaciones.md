@@ -29,4 +29,7 @@ En el caso de árboles de decisión, buscaremos óptimos locales en los nodos. S
    https://graphviz.org/download/
    ```
 
-   
+  ```{note}
+   https://github.com/igijon/ML_arboldecision_randomforest
+  ```
+`
