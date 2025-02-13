@@ -52,6 +52,5 @@ jobs:
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
-        with: 
-          path: "jupyter_book_igc/_build/html"
+        uses: actions/deploy-pages@v3
+        
