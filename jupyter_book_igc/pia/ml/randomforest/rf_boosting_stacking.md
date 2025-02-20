@@ -16,3 +16,6 @@ Se basa en el concepto de en lugar de tener varias instancias que todas hacen un
 
 ![alt text](image-13.png)
 
+```{note}
+https://github.com/igijon/ML_arboldecision_randomforest
+```

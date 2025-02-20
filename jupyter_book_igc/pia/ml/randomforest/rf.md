@@ -16,4 +16,7 @@ Random Forests es importante para hacer selección de características como vere
 Random Forest sirve para problemas de regresión y clasificación. Para regresión utilizaremos Mean Squared Error (MSE) como función de coste en lugar de Gini Impurity. Con las predicciónes que se cogen en regresión de cada instancia del algoritmo, se hará una **media**.
 
 
+```{note}
+https://github.com/igijon/ML_arboldecision_randomforest
+```
 
