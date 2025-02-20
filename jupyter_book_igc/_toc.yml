@@ -140,6 +140,7 @@ parts:
       - file: pia/ml/randomforest/ad_limitaciones
       - file: pia/ml/randomforest/rf_intro
       - file: pia/ml/randomforest/rf_bagging_pasting
+      - file: pia/ml/randomforest/rf
   - caption: Referencias
     chapters:
     - file: bibliografia
