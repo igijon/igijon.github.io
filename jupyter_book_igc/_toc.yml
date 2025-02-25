@@ -143,6 +143,7 @@ parts:
       - file: pia/ml/randomforest/rf
       - file: pia/ml/randomforest/rf_boosting_stacking
       - file: pia/ml/caracteristicas/seleccion_caracteristicas
+      - file: pia/ml/caracteristicas/extraccion_caracteristicas
   - caption: Referencias
     chapters:
     - file: bibliografia
