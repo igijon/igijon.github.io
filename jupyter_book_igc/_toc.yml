@@ -142,6 +142,7 @@ parts:
       - file: pia/ml/randomforest/rf_bagging_pasting
       - file: pia/ml/randomforest/rf
       - file: pia/ml/randomforest/rf_boosting_stacking
+      - file: pia/ml/caracteristicas/seleccion_caracteristicas
   - caption: Referencias
     chapters:
     - file: bibliografia
