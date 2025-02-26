@@ -144,6 +144,9 @@ parts:
       - file: pia/ml/randomforest/rf_boosting_stacking
       - file: pia/ml/caracteristicas/seleccion_caracteristicas
       - file: pia/ml/caracteristicas/extraccion_caracteristicas
+    - files: pia/ml/clustering/clustering
+      sections:
+      - file: pia/ml/clustering/kmeans
   - caption: Referencias
     chapters:
     - file: bibliografia
