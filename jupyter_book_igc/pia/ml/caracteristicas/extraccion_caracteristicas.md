@@ -17,3 +17,6 @@ Existen diversos métodos de extracción de características (se extraen caracte
 
 ![alt text](image-1.png)
 
+```{note}
+https://github.com/igijon/ML_seleccion_caracteristicas
+```

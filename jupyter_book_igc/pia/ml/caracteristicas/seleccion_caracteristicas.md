@@ -22,3 +22,4 @@
 
 - Se puede medir la importancia de una característica en función de como ha reducido la impureza de los nodos de un árbol de decisión.
 - Random Forest es un buen método para obtener intuiciones de si una característica del conjunto de datos realmente es necesaria.
+  
