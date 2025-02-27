@@ -148,6 +148,7 @@ parts:
       sections:
       - file: pia/ml/clustering/kmeans
       - file: pia/ml/clustering/dbscan
+      - file: pia/ml/clustering/evaluacion
   - caption: Referencias
     chapters:
     - file: bibliografia
