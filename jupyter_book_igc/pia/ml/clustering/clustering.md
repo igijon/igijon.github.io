@@ -10,4 +10,3 @@ Características:
   - Ejemplo rudimentario de clustering: escoger una o varias dimensiones y definir cada cluster como el conjunto de elementos que comparten valores en esas dimensiones. Ejemplo: Imaginamos un conjuntto de logs generados por ejemplo con Apache. Si eliges la dirección IP de entre todas las características de entrada (es la dimensión elegida), se define un cluster por cada dirección IP (GROUP BY de SQL).
 
 ![alt text](image.png)
-
