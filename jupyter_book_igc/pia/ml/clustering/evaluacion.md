@@ -52,3 +52,5 @@ Hay dos formas de evaluar:
 
 - Cuanto mayor sea el resultado de esta métrica, más densos y separados están los clústers.
 - Funciona bien para algoritmos de clustering basados en densidad, como DBSCAN.
+
+
