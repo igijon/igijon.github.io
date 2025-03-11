@@ -150,6 +150,7 @@ parts:
       - file: pia/ml/clustering/dbscan
       - file: pia/ml/clustering/evaluacion
       - file: pia/ml/clustering/clustering_ciber
+    - file: pia/ml/probabilidad/algoritmos_probab
   - caption: Referencias
     chapters:
     - file: bibliografia
