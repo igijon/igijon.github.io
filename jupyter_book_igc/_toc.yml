@@ -151,6 +151,8 @@ parts:
       - file: pia/ml/clustering/evaluacion
       - file: pia/ml/clustering/clustering_ciber
     - file: pia/ml/probabilidad/algoritmos_probab
+      sections:
+      - file: pia/ml/probabilidad/naive_bayes
   - caption: Referencias
     chapters:
     - file: bibliografia
