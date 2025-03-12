@@ -154,6 +154,8 @@ parts:
       sections:
       - file: pia/ml/probabilidad/naive_bayes
     - file: pia/ml/anomalias/deteccion_anomalias
+      sections:
+      - file: pia/ml/anomalias/distribucion_gausiana
   - caption: Referencias
     chapters:
     - file: bibliografia
