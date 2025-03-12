@@ -153,6 +153,7 @@ parts:
     - file: pia/ml/probabilidad/algoritmos_probab
       sections:
       - file: pia/ml/probabilidad/naive_bayes
+    - file: pia/ml/anomalias/deteccion_anomalias
   - caption: Referencias
     chapters:
     - file: bibliografia
