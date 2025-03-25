@@ -156,6 +156,8 @@ parts:
     - file: pia/ml/anomalias/deteccion_anomalias
       sections:
       - file: pia/ml/anomalias/distribucion_gausiana
+    - file: pia/pytorch/pytorch
+    
   - caption: Referencias
     chapters:
     - file: bibliografia
