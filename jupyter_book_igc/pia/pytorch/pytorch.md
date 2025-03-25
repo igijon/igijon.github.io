@@ -64,3 +64,12 @@ Las TPUs se llaman así porque usaremos constantemente tensores.
 # Tensores
 
 Tendremos una serie de entradas (en distintos formatos, tal vez) y necesitamos una serie de codificación numérica. A esta representación numérica se llama tensores.
+
+https://colab.research.google.com/?hl=es
+
+![alt text](image-4.png)
+
+```{note}
+https://github.com/igijon/PyTorch_Fundamentos/tree/main
+```
+
