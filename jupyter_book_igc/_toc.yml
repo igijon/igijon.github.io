@@ -157,6 +157,8 @@ parts:
       sections:
       - file: pia/ml/anomalias/distribucion_gausiana
     - file: pia/pytorch/pytorch
+      sections:
+      - file: pia/pytorch/pytorch_workflow
     
   - caption: Referencias
     chapters:
