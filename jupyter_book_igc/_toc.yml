@@ -159,7 +159,7 @@ parts:
     - file: pia/pytorch/pytorch
       sections:
       - file: pia/pytorch/pytorch_workflow
-    
+      - file: pia/pytorch/nn_classification   
   - caption: Referencias
     chapters:
     - file: bibliografia
