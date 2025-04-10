@@ -46,7 +46,7 @@ Los ejemplos de traducción y conversión de audio a texto se llaman **sequence 
 
 A los ejemplos que hemos comentado de visión por computador y NLP de SPAM o no SPAM les llamamos de regresión en el primer caso y clasificación en el segundo.
 
-# Pytorch 
+## Pytorch 
 
 https://pytorch.org/
 
@@ -61,7 +61,7 @@ Permite control de forma óptima de la ejecución en GPU a través de una interf
 También se puede ejecutar tu código PyTorch en TPU que es una unidad de procesamiento tensorial, pero nos centraremos en GPU.
 Las TPUs se llaman así porque usaremos constantemente tensores.
 
-# Tensores
+## Tensores
 
 Tendremos una serie de entradas (en distintos formatos, tal vez) y necesitamos una serie de codificación numérica. A esta representación numérica se llama tensores.
 
