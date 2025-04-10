@@ -34,9 +34,13 @@ En una red neuronal hemos establecido que los parámetros de entrada serán num�
 Cada nodo es una neurona, una caractertística (capas de entrada).
 En los nodos de capas ocultas, PyTorch realizará algún tipo de operación.
 Los nodos de salida, tendremos uno por cada clase.
+
 **Hidden Layer Activation**: pueden ser muchos tipos, aunque típicamente es una unidad lineal rectificada (ReLU). De todos modos pyTorch tiene muchos tipos de activadores no lineales.
+
 **Activación de salida**: puede ser una Sigmoide por ejemplo para clasificación binaria, una SoftMax para muilticlase.
+
 **Loss function**: en clasificación binaria podemos utilizar una entropía cruzada binaria y en multiclase una entropía cruzada.
+
 **Optimizador**: solemos utilizar SGC (Stochastic Gradient Descent)
 
 
