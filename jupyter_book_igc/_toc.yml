@@ -160,6 +160,7 @@ parts:
       sections:
       - file: pia/pytorch/pytorch_workflow
       - file: pia/pytorch/nn_classification   
+      - file: pia/pytorch/vision_computador 
   - caption: Referencias
     chapters:
     - file: bibliografia
